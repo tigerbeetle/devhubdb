@@ -1,2 +1,3 @@
 {"timestamp":1706033544,"revision":"89341c9e6b9915ed458a51c48add7bb072066096","measurements":[{"label":"build time","value":56607,"unit":"ms"},{"label":"executable size","value":1461312,"unit":"bytes"}]}
 {"timestamp":1706034072,"revision":"89341c9e6b9915ed458a51c48add7bb072066096","measurements":[{"label":"build time","value":56774,"unit":"ms"},{"label":"executable size","value":1461312,"unit":"bytes"}]}
+{"timestamp":1706090174,"revision":"825a22c23e46353b7073acd94200d6aff86f0110","measurements":[{"label":"build time","value":54364,"unit":"ms"},{"label":"executable size","value":1461312,"unit":"bytes"}]}
