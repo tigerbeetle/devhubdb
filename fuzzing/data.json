@@ -24,20 +24,20 @@
     "commit_sha": "23ccb60f7f3374a8b1e9d1ae1e3ff2aa573cfe37",
     "fuzzer": "canary",
     "ok": false,
-    "seed": "566820909708569500",
-    "seed_timestamp_start": 1713558286,
-    "seed_timestamp_end": 1713558287,
-    "command": "./zig/zig build -Drelease fuzz -- --seed=566820909708569500 canary"
+    "seed": "472254071161202400",
+    "seed_timestamp_start": 1713600467,
+    "seed_timestamp_end": 1713600468,
+    "command": "./zig/zig build -Drelease fuzz -- --seed=472254071161202400 canary"
   },
   {
     "commit_timestamp": 1713554037,
     "commit_sha": "23ccb60f7f3374a8b1e9d1ae1e3ff2aa573cfe37",
     "fuzzer": "canary",
     "ok": false,
-    "seed": "637816435777974100",
-    "seed_timestamp_start": 1713556275,
-    "seed_timestamp_end": 1713556276,
-    "command": "./zig/zig build -Drelease fuzz -- --seed=637816435777974100 canary"
+    "seed": "566820909708569500",
+    "seed_timestamp_start": 1713558286,
+    "seed_timestamp_end": 1713558287,
+    "command": "./zig/zig build -Drelease fuzz -- --seed=566820909708569500 canary"
   },
   {
     "commit_timestamp": 1713554037,
