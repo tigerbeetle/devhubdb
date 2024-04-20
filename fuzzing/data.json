@@ -83,6 +83,16 @@
     "commit_timestamp": 1713554037,
     "commit_sha": "23ccb60f7f3374a8b1e9d1ae1e3ff2aa573cfe37",
     "fuzzer": "vsr_free_set",
+    "ok": false,
+    "seed": "16900704648836980514",
+    "seed_timestamp_start": 1713573919,
+    "seed_timestamp_end": 1713576029,
+    "command": "./zig/zig build -Drelease fuzz -- --seed=16900704648836980514 vsr_free_set"
+  },
+  {
+    "commit_timestamp": 1713554037,
+    "commit_sha": "23ccb60f7f3374a8b1e9d1ae1e3ff2aa573cfe37",
+    "fuzzer": "vsr_free_set",
     "ok": true,
     "seed": 1992738693852113,
     "seed_timestamp_start": 1713556645,
@@ -94,30 +104,20 @@
     "commit_sha": "23ccb60f7f3374a8b1e9d1ae1e3ff2aa573cfe37",
     "fuzzer": "vsr_free_set",
     "ok": true,
+    "seed": "9614619397144648",
+    "seed_timestamp_start": 1713573863,
+    "seed_timestamp_end": 1713573866,
+    "command": "./zig/zig build -Drelease fuzz -- --seed=9614619397144648 vsr_free_set"
+  },
+  {
+    "commit_timestamp": 1713554037,
+    "commit_sha": "23ccb60f7f3374a8b1e9d1ae1e3ff2aa573cfe37",
+    "fuzzer": "vsr_free_set",
+    "ok": true,
     "seed": "10151678113805383",
     "seed_timestamp_start": 1713558408,
     "seed_timestamp_end": 1713558411,
     "command": "./zig/zig build -Drelease fuzz -- --seed=10151678113805383 vsr_free_set"
-  },
-  {
-    "commit_timestamp": 1713554037,
-    "commit_sha": "23ccb60f7f3374a8b1e9d1ae1e3ff2aa573cfe37",
-    "fuzzer": "vsr_free_set",
-    "ok": true,
-    "seed": "15368134277085462",
-    "seed_timestamp_start": 1713560054,
-    "seed_timestamp_end": 1713560067,
-    "command": "./zig/zig build -Drelease fuzz -- --seed=15368134277085462 vsr_free_set"
-  },
-  {
-    "commit_timestamp": 1713554037,
-    "commit_sha": "23ccb60f7f3374a8b1e9d1ae1e3ff2aa573cfe37",
-    "fuzzer": "vsr_free_set",
-    "ok": true,
-    "seed": "16705744931223493",
-    "seed_timestamp_start": 1713571319,
-    "seed_timestamp_end": 1713571321,
-    "command": "./zig/zig build -Drelease fuzz -- --seed=16705744931223493 vsr_free_set"
   },
   {
     "commit_timestamp": 1713554037,
