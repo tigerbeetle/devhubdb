@@ -154,10 +154,10 @@
     "commit_sha": "23ccb60f7f3374a8b1e9d1ae1e3ff2aa573cfe37",
     "fuzzer": "vsr_superblock",
     "ok": true,
-    "seed": 4370958605017177,
-    "seed_timestamp_start": 1713610455,
-    "seed_timestamp_end": 1713610456,
-    "command": "./zig/zig build -Drelease fuzz -- --seed=4370958605017177 vsr_superblock"
+    "seed": 3094887085412582,
+    "seed_timestamp_start": 1713619320,
+    "seed_timestamp_end": 1713619321,
+    "command": "./zig/zig build -Drelease fuzz -- --seed=3094887085412582 vsr_superblock"
   },
   {
     "commit_timestamp": 1713528451,
