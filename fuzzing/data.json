@@ -64,20 +64,20 @@
     "commit_sha": "23ccb60f7f3374a8b1e9d1ae1e3ff2aa573cfe37",
     "fuzzer": "ewah",
     "ok": true,
-    "seed": "14976333041625702",
-    "seed_timestamp_start": 1713565547,
-    "seed_timestamp_end": 1713565548,
-    "command": "./zig/zig build -Drelease fuzz -- --seed=14976333041625702 ewah"
+    "seed": "7500474249100906",
+    "seed_timestamp_start": 1713571360,
+    "seed_timestamp_end": 1713571361,
+    "command": "./zig/zig build -Drelease fuzz -- --seed=7500474249100906 ewah"
   },
   {
     "commit_timestamp": 1713554037,
     "commit_sha": "23ccb60f7f3374a8b1e9d1ae1e3ff2aa573cfe37",
     "fuzzer": "ewah",
     "ok": true,
-    "seed": "16554096683010247",
-    "seed_timestamp_start": 1713560092,
-    "seed_timestamp_end": 1713560093,
-    "command": "./zig/zig build -Drelease fuzz -- --seed=16554096683010247 ewah"
+    "seed": "14976333041625702",
+    "seed_timestamp_start": 1713565547,
+    "seed_timestamp_end": 1713565548,
+    "command": "./zig/zig build -Drelease fuzz -- --seed=14976333041625702 ewah"
   },
   {
     "commit_timestamp": 1713554037,
@@ -114,10 +114,10 @@
     "commit_sha": "23ccb60f7f3374a8b1e9d1ae1e3ff2aa573cfe37",
     "fuzzer": "vsr_free_set",
     "ok": true,
-    "seed": "18868528325892802",
-    "seed_timestamp_start": 1713558549,
-    "seed_timestamp_end": 1713558557,
-    "command": "./zig/zig build -Drelease fuzz -- --seed=18868528325892802 vsr_free_set"
+    "seed": "16705744931223493",
+    "seed_timestamp_start": 1713571319,
+    "seed_timestamp_end": 1713571321,
+    "command": "./zig/zig build -Drelease fuzz -- --seed=16705744931223493 vsr_free_set"
   },
   {
     "commit_timestamp": 1713554037,
