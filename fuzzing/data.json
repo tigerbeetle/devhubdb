@@ -74,10 +74,10 @@
     "commit_sha": "23ccb60f7f3374a8b1e9d1ae1e3ff2aa573cfe37",
     "fuzzer": "ewah",
     "ok": true,
-    "seed": 2960107533101649,
-    "seed_timestamp_start": 1713631720,
-    "seed_timestamp_end": 1713631721,
-    "command": "./zig/zig build -Drelease fuzz -- --seed=2960107533101649 ewah"
+    "seed": 1841057036967831,
+    "seed_timestamp_start": 1713695978,
+    "seed_timestamp_end": 1713695979,
+    "command": "./zig/zig build -Drelease fuzz -- --seed=1841057036967831 ewah"
   },
   {
     "commit_timestamp": 1713554037,
