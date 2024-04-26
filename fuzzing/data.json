@@ -183,21 +183,21 @@
     "commit_timestamp": 1714150300,
     "commit_sha": "ad017e0677b40b2ed6e5e965f7d9e219c357c34a",
     "fuzzer": "lsm_tree",
-    "ok": true,
-    "seed_timestamp_start": 1714151465,
-    "seed_timestamp_end": 1714151686,
-    "seed": "12095283718503267914",
-    "command": "./zig/zig build -Drelease fuzz -- --seed=12095283718503267914 lsm_tree"
+    "ok": false,
+    "seed_timestamp_start": 1714156420,
+    "seed_timestamp_end": 1714158813,
+    "seed": "10601027800508572150",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=10601027800508572150 lsm_tree"
   },
   {
     "commit_timestamp": 1714150300,
     "commit_sha": "ad017e0677b40b2ed6e5e965f7d9e219c357c34a",
     "fuzzer": "lsm_tree",
-    "ok": true,
-    "seed_timestamp_start": 1714151466,
-    "seed_timestamp_end": 1714151677,
-    "seed": "5019456594673441434",
-    "command": "./zig/zig build -Drelease fuzz -- --seed=5019456594673441434 lsm_tree"
+    "ok": false,
+    "seed_timestamp_start": 1714156448,
+    "seed_timestamp_end": 1714158813,
+    "seed": "7034747486052085608",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=7034747486052085608 lsm_tree"
   },
   {
     "commit_timestamp": 1714150300,
