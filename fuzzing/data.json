@@ -33,11 +33,11 @@
     "commit_timestamp": 1714500432,
     "commit_sha": "fbda8466dcff2c64c7b7ee23d670183d7a9c72e3",
     "fuzzer": "canary",
-    "ok": true,
-    "seed_timestamp_start": 1714501565,
-    "seed_timestamp_end": 1714501566,
-    "seed": "10157771217984211073",
-    "command": "./zig/zig build -Drelease fuzz -- --seed=10157771217984211073 canary"
+    "ok": false,
+    "seed_timestamp_start": 1714506548,
+    "seed_timestamp_end": 1714506549,
+    "seed": "1230614541073081500",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=1230614541073081500 canary"
   },
   {
     "commit_timestamp": 1714500432,
