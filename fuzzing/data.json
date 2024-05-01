@@ -313,11 +313,11 @@
     "commit_timestamp": 1714554648,
     "commit_sha": "ee686eab37d158ceb99c239c4c1c24ded649fcd6",
     "fuzzer": "lsm_tree",
-    "ok": true,
-    "seed_timestamp_start": 1714557404,
-    "seed_timestamp_end": 1714557407,
-    "seed": "5297453593460102796",
-    "command": "./zig/zig build -Drelease fuzz -- --seed=5297453593460102796 lsm_tree"
+    "ok": false,
+    "seed_timestamp_start": 1714562360,
+    "seed_timestamp_end": 1714564751,
+    "seed": "11934096418839024847",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=11934096418839024847 lsm_tree"
   },
   {
     "commit_timestamp": 1714554648,
