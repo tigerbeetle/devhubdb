@@ -1,5 +1,485 @@
 [
   {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "canary",
+    "ok": false,
+    "seed_timestamp_start": 1714671204,
+    "seed_timestamp_end": 1714671205,
+    "seed": "16936114315784189600",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=16936114315784189600 canary"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "canary",
+    "ok": true,
+    "seed_timestamp_start": 1714671190,
+    "seed_timestamp_end": 1714671191,
+    "seed": "8607324996415443974",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=8607324996415443974 canary"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "canary",
+    "ok": true,
+    "seed_timestamp_start": 1714671191,
+    "seed_timestamp_end": 1714671192,
+    "seed": "5740861175637468749",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=5740861175637468749 canary"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "canary",
+    "ok": true,
+    "seed_timestamp_start": 1714671191,
+    "seed_timestamp_end": 1714671192,
+    "seed": "14704064459195275885",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=14704064459195275885 canary"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "ewah",
+    "ok": true,
+    "seed_timestamp_start": 1714671190,
+    "seed_timestamp_end": 1714671191,
+    "seed": "2382666011480641825",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=2382666011480641825 ewah"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "ewah",
+    "ok": true,
+    "seed_timestamp_start": 1714671190,
+    "seed_timestamp_end": 1714671191,
+    "seed": "8642512497799735735",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=8642512497799735735 ewah"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "ewah",
+    "ok": true,
+    "seed_timestamp_start": 1714671192,
+    "seed_timestamp_end": 1714671193,
+    "seed": "3097904352313547751",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=3097904352313547751 ewah"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "ewah",
+    "ok": true,
+    "seed_timestamp_start": 1714671192,
+    "seed_timestamp_end": 1714671193,
+    "seed": "6230040644003386191",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=6230040644003386191 ewah"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "lsm_cache_map",
+    "ok": true,
+    "seed_timestamp_start": 1714671190,
+    "seed_timestamp_end": 1714671191,
+    "seed": "11282095634450174555",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=11282095634450174555 lsm_cache_map"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "lsm_cache_map",
+    "ok": true,
+    "seed_timestamp_start": 1714671191,
+    "seed_timestamp_end": 1714671192,
+    "seed": "10595076476862774486",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=10595076476862774486 lsm_cache_map"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "lsm_cache_map",
+    "ok": true,
+    "seed_timestamp_start": 1714671195,
+    "seed_timestamp_end": 1714671196,
+    "seed": "17107759157653039872",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=17107759157653039872 lsm_cache_map"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "lsm_cache_map",
+    "ok": true,
+    "seed_timestamp_start": 1714671200,
+    "seed_timestamp_end": 1714671201,
+    "seed": "9079087678268714805",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=9079087678268714805 lsm_cache_map"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "lsm_forest",
+    "ok": true,
+    "seed_timestamp_start": 1714671190,
+    "seed_timestamp_end": 1714671326,
+    "seed": "9569962561841497692",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=9569962561841497692 lsm_forest"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "lsm_forest",
+    "ok": true,
+    "seed_timestamp_start": 1714671192,
+    "seed_timestamp_end": 1714671197,
+    "seed": "10428529881853593763",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=10428529881853593763 lsm_forest"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "lsm_forest",
+    "ok": true,
+    "seed_timestamp_start": 1714671193,
+    "seed_timestamp_end": 1714671196,
+    "seed": "5282690191922975152",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=5282690191922975152 lsm_forest"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "lsm_forest",
+    "ok": true,
+    "seed_timestamp_start": 1714671194,
+    "seed_timestamp_end": 1714671367,
+    "seed": "2405637870819368358",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=2405637870819368358 lsm_forest"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "lsm_manifest_level",
+    "ok": true,
+    "seed_timestamp_start": 1714671190,
+    "seed_timestamp_end": 1714671191,
+    "seed": "694258245511317991",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=694258245511317991 lsm_manifest_level"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "lsm_manifest_level",
+    "ok": true,
+    "seed_timestamp_start": 1714671191,
+    "seed_timestamp_end": 1714671192,
+    "seed": "690598863848384285",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=690598863848384285 lsm_manifest_level"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "lsm_manifest_level",
+    "ok": true,
+    "seed_timestamp_start": 1714671192,
+    "seed_timestamp_end": 1714671193,
+    "seed": "13186229852135736293",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=13186229852135736293 lsm_manifest_level"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "lsm_manifest_level",
+    "ok": true,
+    "seed_timestamp_start": 1714671196,
+    "seed_timestamp_end": 1714671197,
+    "seed": "14488245765785573622",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=14488245765785573622 lsm_manifest_level"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "lsm_manifest_log",
+    "ok": true,
+    "seed_timestamp_start": 1714671190,
+    "seed_timestamp_end": 1714671201,
+    "seed": "435420043468101792",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=435420043468101792 lsm_manifest_log"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "lsm_manifest_log",
+    "ok": true,
+    "seed_timestamp_start": 1714671191,
+    "seed_timestamp_end": 1714671201,
+    "seed": "10561790513730559798",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=10561790513730559798 lsm_manifest_log"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "lsm_manifest_log",
+    "ok": true,
+    "seed_timestamp_start": 1714671192,
+    "seed_timestamp_end": 1714671196,
+    "seed": "2841334503488133837",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=2841334503488133837 lsm_manifest_log"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "lsm_manifest_log",
+    "ok": true,
+    "seed_timestamp_start": 1714671192,
+    "seed_timestamp_end": 1714671237,
+    "seed": "3512565196395210524",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=3512565196395210524 lsm_manifest_log"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "lsm_segmented_array",
+    "ok": true,
+    "seed_timestamp_start": 1714671190,
+    "seed_timestamp_end": 1714671192,
+    "seed": "703450570370061446",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=703450570370061446 lsm_segmented_array"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "lsm_segmented_array",
+    "ok": true,
+    "seed_timestamp_start": 1714671191,
+    "seed_timestamp_end": 1714671193,
+    "seed": "18360290691077766641",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=18360290691077766641 lsm_segmented_array"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "lsm_segmented_array",
+    "ok": true,
+    "seed_timestamp_start": 1714671193,
+    "seed_timestamp_end": 1714671195,
+    "seed": "4858432133584307711",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=4858432133584307711 lsm_segmented_array"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "lsm_segmented_array",
+    "ok": true,
+    "seed_timestamp_start": 1714671193,
+    "seed_timestamp_end": 1714671195,
+    "seed": "17067859350653189580",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=17067859350653189580 lsm_segmented_array"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "lsm_tree",
+    "ok": true,
+    "seed_timestamp_start": 1714671190,
+    "seed_timestamp_end": 1714671194,
+    "seed": "3268644451649697573",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=3268644451649697573 lsm_tree"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "lsm_tree",
+    "ok": true,
+    "seed_timestamp_start": 1714671190,
+    "seed_timestamp_end": 1714671223,
+    "seed": "16050220085745774493",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=16050220085745774493 lsm_tree"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "lsm_tree",
+    "ok": true,
+    "seed_timestamp_start": 1714671193,
+    "seed_timestamp_end": 1714671195,
+    "seed": "6614664786943907973",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=6614664786943907973 lsm_tree"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "lsm_tree",
+    "ok": true,
+    "seed_timestamp_start": 1714671193,
+    "seed_timestamp_end": 1714671199,
+    "seed": "10767804443606039876",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=10767804443606039876 lsm_tree"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "vsr_free_set",
+    "ok": true,
+    "seed_timestamp_start": 1714671190,
+    "seed_timestamp_end": 1714671191,
+    "seed": "5240657444582253694",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=5240657444582253694 vsr_free_set"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "vsr_free_set",
+    "ok": true,
+    "seed_timestamp_start": 1714671191,
+    "seed_timestamp_end": 1714671192,
+    "seed": "10841007718717249716",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=10841007718717249716 vsr_free_set"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "vsr_free_set",
+    "ok": true,
+    "seed_timestamp_start": 1714671197,
+    "seed_timestamp_end": 1714671200,
+    "seed": "12580196735514698312",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=12580196735514698312 vsr_free_set"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "vsr_free_set",
+    "ok": true,
+    "seed_timestamp_start": 1714671202,
+    "seed_timestamp_end": 1714671203,
+    "seed": "14051806882132599364",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=14051806882132599364 vsr_free_set"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "vsr_journal_format",
+    "ok": true,
+    "seed_timestamp_start": 1714671190,
+    "seed_timestamp_end": 1714671191,
+    "seed": "2256863481449973808",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=2256863481449973808 vsr_journal_format"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "vsr_journal_format",
+    "ok": true,
+    "seed_timestamp_start": 1714671190,
+    "seed_timestamp_end": 1714671191,
+    "seed": "4473741900337360078",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=4473741900337360078 vsr_journal_format"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "vsr_journal_format",
+    "ok": true,
+    "seed_timestamp_start": 1714671191,
+    "seed_timestamp_end": 1714671192,
+    "seed": "218072040289437981",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=218072040289437981 vsr_journal_format"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "vsr_journal_format",
+    "ok": true,
+    "seed_timestamp_start": 1714671191,
+    "seed_timestamp_end": 1714671192,
+    "seed": "9340092175764523899",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=9340092175764523899 vsr_journal_format"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "vsr_superblock_quorums",
+    "ok": true,
+    "seed_timestamp_start": 1714671190,
+    "seed_timestamp_end": 1714671191,
+    "seed": "16111650150928958707",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=16111650150928958707 vsr_superblock_quorums"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "vsr_superblock_quorums",
+    "ok": true,
+    "seed_timestamp_start": 1714671192,
+    "seed_timestamp_end": 1714671193,
+    "seed": "5487373599352043398",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=5487373599352043398 vsr_superblock_quorums"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "vsr_superblock_quorums",
+    "ok": true,
+    "seed_timestamp_start": 1714671192,
+    "seed_timestamp_end": 1714671193,
+    "seed": "12507637622207353007",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=12507637622207353007 vsr_superblock_quorums"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "vsr_superblock_quorums",
+    "ok": true,
+    "seed_timestamp_start": 1714671193,
+    "seed_timestamp_end": 1714671194,
+    "seed": "17679444723532111015",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=17679444723532111015 vsr_superblock_quorums"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "vsr_superblock",
+    "ok": true,
+    "seed_timestamp_start": 1714671190,
+    "seed_timestamp_end": 1714671191,
+    "seed": "11345768597786690810",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=11345768597786690810 vsr_superblock"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "vsr_superblock",
+    "ok": true,
+    "seed_timestamp_start": 1714671190,
+    "seed_timestamp_end": 1714671191,
+    "seed": "15356333240234058939",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=15356333240234058939 vsr_superblock"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "vsr_superblock",
+    "ok": true,
+    "seed_timestamp_start": 1714671191,
+    "seed_timestamp_end": 1714671192,
+    "seed": "5348109706706666226",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=5348109706706666226 vsr_superblock"
+  },
+  {
+    "commit_timestamp": 1714669538,
+    "commit_sha": "ce2575132752557014259713bfe9c1f18d81505a",
+    "fuzzer": "vsr_superblock",
+    "ok": true,
+    "seed_timestamp_start": 1714671191,
+    "seed_timestamp_end": 1714671192,
+    "seed": "12560681235265908042",
+    "command": "./zig/zig build -Drelease fuzz -- --seed=12560681235265908042 vsr_superblock"
+  },
+  {
     "commit_timestamp": 1714653348,
     "commit_sha": "d7cebd6d62cea78b0a68deb59867755991da8c83",
     "fuzzer": "canary",
@@ -10038,165 +10518,5 @@
     "seed_timestamp_end": 1713797578,
     "seed": "7477669290352838581",
     "command": "./zig/zig build -Drelease fuzz -- --seed=7477669290352838581 vsr_superblock"
-  },
-  {
-    "commit_timestamp": 1713788968,
-    "commit_sha": "3f1d88a53ed3f3cc5399cb4c664420c38edb3360",
-    "fuzzer": "canary",
-    "ok": false,
-    "seed_timestamp_start": 1713791613,
-    "seed_timestamp_end": 1713791614,
-    "seed": "1861213113637389200",
-    "command": "./zig/zig build -Drelease fuzz -- --seed=1861213113637389200 canary"
-  },
-  {
-    "commit_timestamp": 1713788968,
-    "commit_sha": "3f1d88a53ed3f3cc5399cb4c664420c38edb3360",
-    "fuzzer": "canary",
-    "ok": false,
-    "seed_timestamp_start": 1713793410,
-    "seed_timestamp_end": 1713793411,
-    "seed": "2074958126449211200",
-    "command": "./zig/zig build -Drelease fuzz -- --seed=2074958126449211200 canary"
-  },
-  {
-    "commit_timestamp": 1713788968,
-    "commit_sha": "3f1d88a53ed3f3cc5399cb4c664420c38edb3360",
-    "fuzzer": "canary",
-    "ok": false,
-    "seed_timestamp_start": 1713793546,
-    "seed_timestamp_end": 1713793547,
-    "seed": "222467318254302000",
-    "command": "./zig/zig build -Drelease fuzz -- --seed=222467318254302000 canary"
-  },
-  {
-    "commit_timestamp": 1713788968,
-    "commit_sha": "3f1d88a53ed3f3cc5399cb4c664420c38edb3360",
-    "fuzzer": "canary",
-    "ok": false,
-    "seed_timestamp_start": 1713794311,
-    "seed_timestamp_end": 1713794312,
-    "seed": "540059364912257600",
-    "command": "./zig/zig build -Drelease fuzz -- --seed=540059364912257600 canary"
-  },
-  {
-    "commit_timestamp": 1713788968,
-    "commit_sha": "3f1d88a53ed3f3cc5399cb4c664420c38edb3360",
-    "fuzzer": "ewah",
-    "ok": true,
-    "seed_timestamp_start": 1713790066,
-    "seed_timestamp_end": 1713790067,
-    "seed": 1573165591264291,
-    "command": "./zig/zig build -Drelease fuzz -- --seed=1573165591264291 ewah"
-  },
-  {
-    "commit_timestamp": 1713788968,
-    "commit_sha": "3f1d88a53ed3f3cc5399cb4c664420c38edb3360",
-    "fuzzer": "ewah",
-    "ok": true,
-    "seed_timestamp_start": 1713790248,
-    "seed_timestamp_end": 1713790249,
-    "seed": "7854105228670351",
-    "command": "./zig/zig build -Drelease fuzz -- --seed=7854105228670351 ewah"
-  },
-  {
-    "commit_timestamp": 1713788968,
-    "commit_sha": "3f1d88a53ed3f3cc5399cb4c664420c38edb3360",
-    "fuzzer": "ewah",
-    "ok": true,
-    "seed_timestamp_start": 1713793122,
-    "seed_timestamp_end": 1713793123,
-    "seed": "34604002290132628",
-    "command": "./zig/zig build -Drelease fuzz -- --seed=34604002290132628 ewah"
-  },
-  {
-    "commit_timestamp": 1713788968,
-    "commit_sha": "3f1d88a53ed3f3cc5399cb4c664420c38edb3360",
-    "fuzzer": "ewah",
-    "ok": true,
-    "seed_timestamp_start": 1713797138,
-    "seed_timestamp_end": 1713797139,
-    "seed": "9431002875901963",
-    "command": "./zig/zig build -Drelease fuzz -- --seed=9431002875901963 ewah"
-  },
-  {
-    "commit_timestamp": 1713788968,
-    "commit_sha": "3f1d88a53ed3f3cc5399cb4c664420c38edb3360",
-    "fuzzer": "vsr_free_set",
-    "ok": true,
-    "seed_timestamp_start": 1713791524,
-    "seed_timestamp_end": 1713791533,
-    "seed": "10690185604651295",
-    "command": "./zig/zig build -Drelease fuzz -- --seed=10690185604651295 vsr_free_set"
-  },
-  {
-    "commit_timestamp": 1713788968,
-    "commit_sha": "3f1d88a53ed3f3cc5399cb4c664420c38edb3360",
-    "fuzzer": "vsr_free_set",
-    "ok": true,
-    "seed_timestamp_start": 1713791889,
-    "seed_timestamp_end": 1713791910,
-    "seed": "28488174796445434",
-    "command": "./zig/zig build -Drelease fuzz -- --seed=28488174796445434 vsr_free_set"
-  },
-  {
-    "commit_timestamp": 1713788968,
-    "commit_sha": "3f1d88a53ed3f3cc5399cb4c664420c38edb3360",
-    "fuzzer": "vsr_free_set",
-    "ok": true,
-    "seed_timestamp_start": 1713794774,
-    "seed_timestamp_end": 1713794775,
-    "seed": "23960639298123508",
-    "command": "./zig/zig build -Drelease fuzz -- --seed=23960639298123508 vsr_free_set"
-  },
-  {
-    "commit_timestamp": 1713788968,
-    "commit_sha": "3f1d88a53ed3f3cc5399cb4c664420c38edb3360",
-    "fuzzer": "vsr_free_set",
-    "ok": true,
-    "seed_timestamp_start": 1713796917,
-    "seed_timestamp_end": 1713796918,
-    "seed": "7051223993730015",
-    "command": "./zig/zig build -Drelease fuzz -- --seed=7051223993730015 vsr_free_set"
-  },
-  {
-    "commit_timestamp": 1713788968,
-    "commit_sha": "3f1d88a53ed3f3cc5399cb4c664420c38edb3360",
-    "fuzzer": "vsr_superblock",
-    "ok": true,
-    "seed_timestamp_start": 1713794391,
-    "seed_timestamp_end": 1713794392,
-    "seed": "32281906459404763",
-    "command": "./zig/zig build -Drelease fuzz -- --seed=32281906459404763 vsr_superblock"
-  },
-  {
-    "commit_timestamp": 1713788968,
-    "commit_sha": "3f1d88a53ed3f3cc5399cb4c664420c38edb3360",
-    "fuzzer": "vsr_superblock",
-    "ok": true,
-    "seed_timestamp_start": 1713794713,
-    "seed_timestamp_end": 1713794714,
-    "seed": "7918579043477722",
-    "command": "./zig/zig build -Drelease fuzz -- --seed=7918579043477722 vsr_superblock"
-  },
-  {
-    "commit_timestamp": 1713788968,
-    "commit_sha": "3f1d88a53ed3f3cc5399cb4c664420c38edb3360",
-    "fuzzer": "vsr_superblock",
-    "ok": true,
-    "seed_timestamp_start": 1713796588,
-    "seed_timestamp_end": 1713796589,
-    "seed": "44202697736109169",
-    "command": "./zig/zig build -Drelease fuzz -- --seed=44202697736109169 vsr_superblock"
-  },
-  {
-    "commit_timestamp": 1713788968,
-    "commit_sha": "3f1d88a53ed3f3cc5399cb4c664420c38edb3360",
-    "fuzzer": "vsr_superblock",
-    "ok": true,
-    "seed_timestamp_start": 1713797162,
-    "seed_timestamp_end": 1713797163,
-    "seed": "39213875388975026",
-    "command": "./zig/zig build -Drelease fuzz -- --seed=39213875388975026 vsr_superblock"
   }
 ]
