@@ -619,6 +619,28 @@
     "commit_timestamp": 1715371699,
     "commit_sha": "e408a477d3bc02644beee0ed33ac462f968228bf",
     "fuzzer": "vopr_lite",
+    "ok": false,
+    "seed_timestamp_start": 1715374201,
+    "seed_timestamp_end": 1715374202,
+    "seed": "16850343793433590572",
+    "command": "./zig/zig build -Drelease simulator_run -- --lite 16850343793433590572",
+    "branch": "https://github.com/tigerbeetle/tigerbeetle"
+  },
+  {
+    "commit_timestamp": 1715371699,
+    "commit_sha": "e408a477d3bc02644beee0ed33ac462f968228bf",
+    "fuzzer": "vopr_lite",
+    "ok": false,
+    "seed_timestamp_start": 1715374507,
+    "seed_timestamp_end": 1715374508,
+    "seed": "6074100934007046701",
+    "command": "./zig/zig build -Drelease simulator_run -- --lite 6074100934007046701",
+    "branch": "https://github.com/tigerbeetle/tigerbeetle"
+  },
+  {
+    "commit_timestamp": 1715371699,
+    "commit_sha": "e408a477d3bc02644beee0ed33ac462f968228bf",
+    "fuzzer": "vopr_lite",
     "ok": true,
     "seed_timestamp_start": 1715372781,
     "seed_timestamp_end": 1715372782,
@@ -635,28 +657,6 @@
     "seed_timestamp_end": 1715372784,
     "seed": "5258038936957761763",
     "command": "./zig/zig build -Drelease simulator_run -- --lite 5258038936957761763",
-    "branch": "https://github.com/tigerbeetle/tigerbeetle"
-  },
-  {
-    "commit_timestamp": 1715371699,
-    "commit_sha": "e408a477d3bc02644beee0ed33ac462f968228bf",
-    "fuzzer": "vopr_lite",
-    "ok": true,
-    "seed_timestamp_start": 1715372795,
-    "seed_timestamp_end": 1715372796,
-    "seed": "13533379117918763768",
-    "command": "./zig/zig build -Drelease simulator_run -- --lite 13533379117918763768",
-    "branch": "https://github.com/tigerbeetle/tigerbeetle"
-  },
-  {
-    "commit_timestamp": 1715371699,
-    "commit_sha": "e408a477d3bc02644beee0ed33ac462f968228bf",
-    "fuzzer": "vopr_lite",
-    "ok": true,
-    "seed_timestamp_start": 1715372800,
-    "seed_timestamp_end": 1715372801,
-    "seed": "5716405343543448609",
-    "command": "./zig/zig build -Drelease simulator_run -- --lite 5716405343543448609",
     "branch": "https://github.com/tigerbeetle/tigerbeetle"
   },
   {
