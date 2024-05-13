@@ -565,10 +565,10 @@
     "commit_sha": "9777cc7ada5371dc86386e41b642181d5e3699ad",
     "fuzzer": "vopr",
     "ok": false,
-    "seed_timestamp_start": 1715628639,
-    "seed_timestamp_end": 1715628641,
-    "seed": "11239283462271989241",
-    "command": "./zig/zig build -Drelease simulator_run -- 11239283462271989241",
+    "seed_timestamp_start": 1715635709,
+    "seed_timestamp_end": 1715635710,
+    "seed": "6734706204230005174",
+    "command": "./zig/zig build -Drelease simulator_run -- 6734706204230005174",
     "branch": "https://github.com/tigerbeetle/tigerbeetle"
   },
   {
