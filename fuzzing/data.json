@@ -15,32 +15,32 @@
     "commit_sha": "4da508cb356aef68f22b1e0f3478b78374e09545",
     "fuzzer": "canary",
     "ok": false,
+    "seed_timestamp_start": 1715698954,
+    "seed_timestamp_end": 1715698957,
+    "seed": "5109416243313591070",
+    "command": "./zig/zig build -Drelease fuzz -- canary 5109416243313591070",
+    "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/1951"
+  },
+  {
+    "commit_timestamp": 1715694478,
+    "commit_sha": "4da508cb356aef68f22b1e0f3478b78374e09545",
+    "fuzzer": "canary",
+    "ok": false,
+    "seed_timestamp_start": 1715698983,
+    "seed_timestamp_end": 1715698986,
+    "seed": "14346911472104036832",
+    "command": "./zig/zig build -Drelease fuzz -- canary 14346911472104036832",
+    "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/1951"
+  },
+  {
+    "commit_timestamp": 1715694478,
+    "commit_sha": "4da508cb356aef68f22b1e0f3478b78374e09545",
+    "fuzzer": "canary",
+    "ok": false,
     "seed_timestamp_start": 1715695919,
     "seed_timestamp_end": 1715695923,
     "seed": "7833895515540414663",
     "command": "./zig/zig build -Drelease fuzz -- canary 7833895515540414663",
-    "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/1951"
-  },
-  {
-    "commit_timestamp": 1715694478,
-    "commit_sha": "4da508cb356aef68f22b1e0f3478b78374e09545",
-    "fuzzer": "canary",
-    "ok": false,
-    "seed_timestamp_start": 1715696717,
-    "seed_timestamp_end": 1715696721,
-    "seed": "9139645520726136849",
-    "command": "./zig/zig build -Drelease fuzz -- canary 9139645520726136849",
-    "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/1951"
-  },
-  {
-    "commit_timestamp": 1715694478,
-    "commit_sha": "4da508cb356aef68f22b1e0f3478b78374e09545",
-    "fuzzer": "canary",
-    "ok": false,
-    "seed_timestamp_start": 1715697825,
-    "seed_timestamp_end": 1715697829,
-    "seed": "10511173830552125600",
-    "command": "./zig/zig build -Drelease fuzz -- canary 10511173830552125600",
     "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/1951"
   },
   {
