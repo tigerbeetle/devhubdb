@@ -3,6 +3,17 @@
     "commit_timestamp": 1715942520,
     "commit_sha": "5eac76d49c27317276b69c69bbc5a415b194887a",
     "fuzzer": "canary",
+    "ok": false,
+    "seed_timestamp_start": 1715945590,
+    "seed_timestamp_end": 1715945591,
+    "seed": "1621637437502504000",
+    "command": "./zig/zig build -Drelease fuzz -- canary 1621637437502504000",
+    "branch": "https://github.com/tigerbeetle/tigerbeetle"
+  },
+  {
+    "commit_timestamp": 1715942520,
+    "commit_sha": "5eac76d49c27317276b69c69bbc5a415b194887a",
+    "fuzzer": "canary",
     "ok": true,
     "seed_timestamp_start": 1715944356,
     "seed_timestamp_end": 1715944357,
@@ -30,17 +41,6 @@
     "seed_timestamp_end": 1715944380,
     "seed": "6286615799020935230",
     "command": "./zig/zig build -Drelease fuzz -- canary 6286615799020935230",
-    "branch": "https://github.com/tigerbeetle/tigerbeetle"
-  },
-  {
-    "commit_timestamp": 1715942520,
-    "commit_sha": "5eac76d49c27317276b69c69bbc5a415b194887a",
-    "fuzzer": "canary",
-    "ok": true,
-    "seed_timestamp_start": 1715944379,
-    "seed_timestamp_end": 1715944380,
-    "seed": "13278532787373998106",
-    "command": "./zig/zig build -Drelease fuzz -- canary 13278532787373998106",
     "branch": "https://github.com/tigerbeetle/tigerbeetle"
   },
   {
@@ -147,6 +147,17 @@
     "commit_sha": "5eac76d49c27317276b69c69bbc5a415b194887a",
     "fuzzer": "lsm_forest",
     "ok": true,
+    "seed_timestamp_start": 1715946035,
+    "seed_timestamp_end": 1715946036,
+    "seed": "3412075584090141674",
+    "command": "./zig/zig build -Drelease fuzz -- lsm_forest 3412075584090141674",
+    "branch": "https://github.com/tigerbeetle/tigerbeetle"
+  },
+  {
+    "commit_timestamp": 1715942520,
+    "commit_sha": "5eac76d49c27317276b69c69bbc5a415b194887a",
+    "fuzzer": "lsm_forest",
+    "ok": true,
     "seed_timestamp_start": 1715944856,
     "seed_timestamp_end": 1715944858,
     "seed": "934947567277084675",
@@ -162,17 +173,6 @@
     "seed_timestamp_end": 1715944366,
     "seed": "10103001482521773116",
     "command": "./zig/zig build -Drelease fuzz -- lsm_forest 10103001482521773116",
-    "branch": "https://github.com/tigerbeetle/tigerbeetle"
-  },
-  {
-    "commit_timestamp": 1715942520,
-    "commit_sha": "5eac76d49c27317276b69c69bbc5a415b194887a",
-    "fuzzer": "lsm_forest",
-    "ok": true,
-    "seed_timestamp_start": 1715944744,
-    "seed_timestamp_end": 1715944751,
-    "seed": "10072571757321977561",
-    "command": "./zig/zig build -Drelease fuzz -- lsm_forest 10072571757321977561",
     "branch": "https://github.com/tigerbeetle/tigerbeetle"
   },
   {
@@ -345,10 +345,10 @@
     "commit_sha": "5eac76d49c27317276b69c69bbc5a415b194887a",
     "fuzzer": "lsm_tree",
     "ok": true,
-    "seed_timestamp_start": 1715944375,
-    "seed_timestamp_end": 1715944377,
-    "seed": "9785692595679850545",
-    "command": "./zig/zig build -Drelease fuzz -- lsm_tree 9785692595679850545",
+    "seed_timestamp_start": 1715945506,
+    "seed_timestamp_end": 1715945507,
+    "seed": "15133154058319210925",
+    "command": "./zig/zig build -Drelease fuzz -- lsm_tree 15133154058319210925",
     "branch": "https://github.com/tigerbeetle/tigerbeetle"
   },
   {
