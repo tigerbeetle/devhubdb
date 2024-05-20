@@ -37,10 +37,10 @@
     "commit_sha": "5edd7339eadf2c2de4b8a442722e3f252fa7963e",
     "fuzzer": "canary",
     "ok": false,
-    "seed_timestamp_start": 1716231194,
-    "seed_timestamp_end": 1716231245,
-    "seed": "15761476375621396300",
-    "command": "./zig/zig build -Drelease fuzz -- canary 15761476375621396300",
+    "seed_timestamp_start": 1716236477,
+    "seed_timestamp_end": 1716236526,
+    "seed": "17689244880477232100",
+    "command": "./zig/zig build -Drelease fuzz -- canary 17689244880477232100",
     "branch": "https://github.com/tigerbeetle/tigerbeetle"
   },
   {
