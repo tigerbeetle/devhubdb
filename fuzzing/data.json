@@ -2324,11 +2324,11 @@
     "commit_timestamp": 1716213441,
     "commit_sha": "7469c6dc49103e8a8fe5967e925f5ebacd1884c8",
     "fuzzer": "vopr",
-    "ok": true,
-    "seed_timestamp_start": 1716214655,
-    "seed_timestamp_end": 1716214656,
-    "seed": "9901182558699153236",
-    "command": "./zig/zig build -Drelease simulator_run -- 9901182558699153236",
+    "ok": false,
+    "seed_timestamp_start": 1716266226,
+    "seed_timestamp_end": 1716266317,
+    "seed": "16806995424551581220",
+    "command": "./zig/zig build -Drelease simulator_run -- 16806995424551581220",
     "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/1951"
   },
   {
