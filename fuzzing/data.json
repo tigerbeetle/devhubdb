@@ -3601,10 +3601,10 @@
     "commit_sha": "296cb7d0fd6ed4dee122df3108626a1830adc383",
     "fuzzer": "vopr",
     "ok": false,
-    "seed_timestamp_start": 1716340717,
-    "seed_timestamp_end": 1716340739,
-    "seed": "6986025583766080551",
-    "command": "./zig/zig build -Drelease simulator_run -- 6986025583766080551",
+    "seed_timestamp_start": 1716731174,
+    "seed_timestamp_end": 1716731195,
+    "seed": "6664727389445948020",
+    "command": "./zig/zig build -Drelease simulator_run -- 6664727389445948020",
     "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/1951"
   },
   {
