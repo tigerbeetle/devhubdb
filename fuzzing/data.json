@@ -542,6 +542,17 @@
     "commit_timestamp": 1717749451,
     "commit_sha": "b17a2f255651732931dcd0ee9fbb52cc7cdd7d50",
     "fuzzer": "vopr",
+    "ok": false,
+    "seed_timestamp_start": 1718015417,
+    "seed_timestamp_end": 1718015486,
+    "seed": "13921303413723081318",
+    "command": "./zig/zig build -Drelease simulator_run -- 13921303413723081318",
+    "branch": "https://github.com/tigerbeetle/tigerbeetle"
+  },
+  {
+    "commit_timestamp": 1717749451,
+    "commit_sha": "b17a2f255651732931dcd0ee9fbb52cc7cdd7d50",
+    "fuzzer": "vopr",
     "ok": true,
     "seed_timestamp_start": 1717750567,
     "seed_timestamp_end": 1717750568,
@@ -558,17 +569,6 @@
     "seed_timestamp_end": 1717750587,
     "seed": "12480406898435847031",
     "command": "./zig/zig build -Drelease simulator_run -- 12480406898435847031",
-    "branch": "https://github.com/tigerbeetle/tigerbeetle"
-  },
-  {
-    "commit_timestamp": 1717749451,
-    "commit_sha": "b17a2f255651732931dcd0ee9fbb52cc7cdd7d50",
-    "fuzzer": "vopr",
-    "ok": true,
-    "seed_timestamp_start": 1717750591,
-    "seed_timestamp_end": 1717750592,
-    "seed": "5139466887138587180",
-    "command": "./zig/zig build -Drelease simulator_run -- 5139466887138587180",
     "branch": "https://github.com/tigerbeetle/tigerbeetle"
   },
   {
