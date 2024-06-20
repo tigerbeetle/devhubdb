@@ -15,32 +15,32 @@
     "commit_sha": "8937e0b4b259cf4b210dd21c2d6c99dffa25a247",
     "fuzzer": "canary",
     "ok": false,
+    "seed_timestamp_start": 1718893907,
+    "seed_timestamp_end": 1718893908,
+    "seed": 12988120419244998100,
+    "command": "./zig/zig build -Drelease fuzz -- canary 12988120419244998100",
+    "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/2004"
+  },
+  {
+    "commit_timestamp": 1718891640,
+    "commit_sha": "8937e0b4b259cf4b210dd21c2d6c99dffa25a247",
+    "fuzzer": "canary",
+    "ok": false,
+    "seed_timestamp_start": 1718894100,
+    "seed_timestamp_end": 1718894101,
+    "seed": 12561496647241920500,
+    "command": "./zig/zig build -Drelease fuzz -- canary 12561496647241920500",
+    "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/2004"
+  },
+  {
+    "commit_timestamp": 1718891640,
+    "commit_sha": "8937e0b4b259cf4b210dd21c2d6c99dffa25a247",
+    "fuzzer": "canary",
+    "ok": false,
     "seed_timestamp_start": 1718892583,
     "seed_timestamp_end": 1718892612,
     "seed": 11982310329728808500,
     "command": "./zig/zig build -Drelease fuzz -- canary 11982310329728808500",
-    "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/2004"
-  },
-  {
-    "commit_timestamp": 1718891640,
-    "commit_sha": "8937e0b4b259cf4b210dd21c2d6c99dffa25a247",
-    "fuzzer": "canary",
-    "ok": true,
-    "seed_timestamp_start": 1718892652,
-    "seed_timestamp_end": 1718892653,
-    "seed": 349560238007096557,
-    "command": "./zig/zig build -Drelease fuzz -- canary 349560238007096557",
-    "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/2004"
-  },
-  {
-    "commit_timestamp": 1718891640,
-    "commit_sha": "8937e0b4b259cf4b210dd21c2d6c99dffa25a247",
-    "fuzzer": "canary",
-    "ok": true,
-    "seed_timestamp_start": 1718892652,
-    "seed_timestamp_end": 1718892653,
-    "seed": 9427725331463749732,
-    "command": "./zig/zig build -Drelease fuzz -- canary 9427725331463749732",
     "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/2004"
   },
   {
@@ -81,10 +81,10 @@
     "commit_sha": "8937e0b4b259cf4b210dd21c2d6c99dffa25a247",
     "fuzzer": "vopr_lite",
     "ok": false,
-    "seed_timestamp_start": 1718893087,
-    "seed_timestamp_end": 1718893089,
-    "seed": 13957831106967891721,
-    "command": "./zig/zig build -Drelease simulator_run -- --lite 13957831106967891721",
+    "seed_timestamp_start": 1718893700,
+    "seed_timestamp_end": 1718893701,
+    "seed": 3932859878679197552,
+    "command": "./zig/zig build -Drelease simulator_run -- --lite 3932859878679197552",
     "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/2004"
   },
   {
