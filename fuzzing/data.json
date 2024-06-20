@@ -80,11 +80,11 @@
     "commit_timestamp": 1718830972,
     "commit_sha": "6ef6d2c57443a688e1970eabea0ab54e6edf2743",
     "fuzzer": "vopr_lite",
-    "ok": true,
-    "seed_timestamp_start": 1718832559,
-    "seed_timestamp_end": 1718832560,
-    "seed": 8871826722150026483,
-    "command": "./zig/zig build -Drelease simulator_run -- --lite 8871826722150026483",
+    "ok": false,
+    "seed_timestamp_start": 1718842538,
+    "seed_timestamp_end": 1718842539,
+    "seed": 16225991354927763150,
+    "command": "./zig/zig build -Drelease simulator_run -- --lite 16225991354927763150",
     "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/2004"
   },
   {
