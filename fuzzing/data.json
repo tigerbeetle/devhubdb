@@ -37,10 +37,10 @@
     "commit_sha": "8937e0b4b259cf4b210dd21c2d6c99dffa25a247",
     "fuzzer": "canary",
     "ok": false,
-    "seed_timestamp_start": 1718892583,
-    "seed_timestamp_end": 1718892612,
-    "seed": 11982310329728808500,
-    "command": "./zig/zig build -Drelease fuzz -- canary 11982310329728808500",
+    "seed_timestamp_start": 1718894925,
+    "seed_timestamp_end": 1718894926,
+    "seed": 11325719863033481300,
+    "command": "./zig/zig build -Drelease fuzz -- canary 11325719863033481300",
     "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/2004"
   },
   {
