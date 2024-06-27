@@ -14,33 +14,33 @@
     "commit_timestamp": 1719493250,
     "commit_sha": "3977ade750f5de0fc7e5bc909957c0c2dcf1b0eb",
     "fuzzer": "canary",
+    "ok": false,
+    "seed_timestamp_start": 1719502921,
+    "seed_timestamp_end": 1719502922,
+    "seed": 5709983178250066800,
+    "command": "./zig/zig build -Drelease fuzz -- canary 5709983178250066800",
+    "branch": "https://github.com/tigerbeetle/tigerbeetle"
+  },
+  {
+    "commit_timestamp": 1719493250,
+    "commit_sha": "3977ade750f5de0fc7e5bc909957c0c2dcf1b0eb",
+    "fuzzer": "canary",
+    "ok": false,
+    "seed_timestamp_start": 1719503267,
+    "seed_timestamp_end": 1719503268,
+    "seed": 16164365668266028200,
+    "command": "./zig/zig build -Drelease fuzz -- canary 16164365668266028200",
+    "branch": "https://github.com/tigerbeetle/tigerbeetle"
+  },
+  {
+    "commit_timestamp": 1719493250,
+    "commit_sha": "3977ade750f5de0fc7e5bc909957c0c2dcf1b0eb",
+    "fuzzer": "canary",
     "ok": true,
     "seed_timestamp_start": 1719494806,
     "seed_timestamp_end": 1719494807,
     "seed": 2756472117048365207,
     "command": "./zig/zig build -Drelease fuzz -- canary 2756472117048365207",
-    "branch": "https://github.com/tigerbeetle/tigerbeetle"
-  },
-  {
-    "commit_timestamp": 1719493250,
-    "commit_sha": "3977ade750f5de0fc7e5bc909957c0c2dcf1b0eb",
-    "fuzzer": "canary",
-    "ok": true,
-    "seed_timestamp_start": 1719494817,
-    "seed_timestamp_end": 1719494818,
-    "seed": 16277262089212037062,
-    "command": "./zig/zig build -Drelease fuzz -- canary 16277262089212037062",
-    "branch": "https://github.com/tigerbeetle/tigerbeetle"
-  },
-  {
-    "commit_timestamp": 1719493250,
-    "commit_sha": "3977ade750f5de0fc7e5bc909957c0c2dcf1b0eb",
-    "fuzzer": "canary",
-    "ok": true,
-    "seed_timestamp_start": 1719494849,
-    "seed_timestamp_end": 1719494850,
-    "seed": 3369391338182226647,
-    "command": "./zig/zig build -Drelease fuzz -- canary 3369391338182226647",
     "branch": "https://github.com/tigerbeetle/tigerbeetle"
   },
   {
