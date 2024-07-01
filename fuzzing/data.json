@@ -14,33 +14,33 @@
     "commit_timestamp": 1719855656,
     "commit_sha": "2943d619fde8a7aa44cfdc3b39d7dfa5a31c93bc",
     "fuzzer": "canary",
+    "ok": false,
+    "seed_timestamp_start": 1719861342,
+    "seed_timestamp_end": 1719861343,
+    "seed": 12018194358600946600,
+    "command": "./zig/zig build -Drelease fuzz -- canary 12018194358600946600",
+    "branch": "https://github.com/tigerbeetle/tigerbeetle"
+  },
+  {
+    "commit_timestamp": 1719855656,
+    "commit_sha": "2943d619fde8a7aa44cfdc3b39d7dfa5a31c93bc",
+    "fuzzer": "canary",
+    "ok": false,
+    "seed_timestamp_start": 1719861370,
+    "seed_timestamp_end": 1719861371,
+    "seed": 17140791764787064900,
+    "command": "./zig/zig build -Drelease fuzz -- canary 17140791764787064900",
+    "branch": "https://github.com/tigerbeetle/tigerbeetle"
+  },
+  {
+    "commit_timestamp": 1719855656,
+    "commit_sha": "2943d619fde8a7aa44cfdc3b39d7dfa5a31c93bc",
+    "fuzzer": "canary",
     "ok": true,
     "seed_timestamp_start": 1719856489,
     "seed_timestamp_end": 1719856490,
     "seed": 3621867904064595365,
     "command": "./zig/zig build -Drelease fuzz -- canary 3621867904064595365",
-    "branch": "https://github.com/tigerbeetle/tigerbeetle"
-  },
-  {
-    "commit_timestamp": 1719855656,
-    "commit_sha": "2943d619fde8a7aa44cfdc3b39d7dfa5a31c93bc",
-    "fuzzer": "canary",
-    "ok": true,
-    "seed_timestamp_start": 1719856510,
-    "seed_timestamp_end": 1719856511,
-    "seed": 15008600741835914663,
-    "command": "./zig/zig build -Drelease fuzz -- canary 15008600741835914663",
-    "branch": "https://github.com/tigerbeetle/tigerbeetle"
-  },
-  {
-    "commit_timestamp": 1719855656,
-    "commit_sha": "2943d619fde8a7aa44cfdc3b39d7dfa5a31c93bc",
-    "fuzzer": "canary",
-    "ok": true,
-    "seed_timestamp_start": 1719856511,
-    "seed_timestamp_end": 1719856512,
-    "seed": 2651147766598456423,
-    "command": "./zig/zig build -Drelease fuzz -- canary 2651147766598456423",
     "branch": "https://github.com/tigerbeetle/tigerbeetle"
   },
   {
