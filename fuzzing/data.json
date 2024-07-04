@@ -81,10 +81,10 @@
     "commit_sha": "6a0087506956ab72b99ee55a1d62b8a226dc0dd3",
     "fuzzer": "lsm_forest",
     "ok": true,
-    "seed_timestamp_start": 1720102910,
-    "seed_timestamp_end": 1720102912,
-    "seed": 5004652883673830924,
-    "command": "./zig/zig build -Drelease fuzz -- lsm_forest 5004652883673830924",
+    "seed_timestamp_start": 1720104028,
+    "seed_timestamp_end": 1720104029,
+    "seed": 6693200047738193825,
+    "command": "./zig/zig build -Drelease fuzz -- lsm_forest 6693200047738193825",
     "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/2069"
   },
   {
