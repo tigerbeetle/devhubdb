@@ -14,33 +14,33 @@
     "commit_timestamp": 1720528226,
     "commit_sha": "f8cfbd5b527195432ab7992b50dfc63682b99463",
     "fuzzer": "canary",
+    "ok": false,
+    "seed_timestamp_start": 1720532490,
+    "seed_timestamp_end": 1720532491,
+    "seed": 1892489348534532600,
+    "command": "./zig/zig build -Drelease fuzz -- canary 1892489348534532600",
+    "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/2080"
+  },
+  {
+    "commit_timestamp": 1720528226,
+    "commit_sha": "f8cfbd5b527195432ab7992b50dfc63682b99463",
+    "fuzzer": "canary",
+    "ok": false,
+    "seed_timestamp_start": 1720532508,
+    "seed_timestamp_end": 1720532509,
+    "seed": 5648281624183288400,
+    "command": "./zig/zig build -Drelease fuzz -- canary 5648281624183288400",
+    "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/2080"
+  },
+  {
+    "commit_timestamp": 1720528226,
+    "commit_sha": "f8cfbd5b527195432ab7992b50dfc63682b99463",
+    "fuzzer": "canary",
     "ok": true,
     "seed_timestamp_start": 1720529019,
     "seed_timestamp_end": 1720529020,
     "seed": 4424152889349140,
     "command": "./zig/zig build -Drelease fuzz -- canary 4424152889349140",
-    "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/2080"
-  },
-  {
-    "commit_timestamp": 1720528226,
-    "commit_sha": "f8cfbd5b527195432ab7992b50dfc63682b99463",
-    "fuzzer": "canary",
-    "ok": true,
-    "seed_timestamp_start": 1720529023,
-    "seed_timestamp_end": 1720529024,
-    "seed": 4135818412397663734,
-    "command": "./zig/zig build -Drelease fuzz -- canary 4135818412397663734",
-    "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/2080"
-  },
-  {
-    "commit_timestamp": 1720528226,
-    "commit_sha": "f8cfbd5b527195432ab7992b50dfc63682b99463",
-    "fuzzer": "canary",
-    "ok": true,
-    "seed_timestamp_start": 1720529023,
-    "seed_timestamp_end": 1720529024,
-    "seed": 11265360126287036621,
-    "command": "./zig/zig build -Drelease fuzz -- canary 11265360126287036621",
     "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/2080"
   },
   {
