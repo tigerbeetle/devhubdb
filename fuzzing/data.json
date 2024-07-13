@@ -25,22 +25,44 @@
     "commit_timestamp": 1720827420,
     "commit_sha": "80fc12bfa08acfd49ccfe1862eafdac0350108d3",
     "fuzzer": "canary",
-    "ok": true,
-    "seed_timestamp_start": 1720828531,
-    "seed_timestamp_end": 1720828532,
-    "seed": 18039228298051870155,
-    "command": "./zig/zig build -Drelease fuzz -- canary 18039228298051870155",
+    "ok": false,
+    "seed_timestamp_start": 1720834011,
+    "seed_timestamp_end": 1720834012,
+    "seed": 2457335623002332200,
+    "command": "./zig/zig build -Drelease fuzz -- canary 2457335623002332200",
     "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/2104"
   },
   {
     "commit_timestamp": 1720827420,
     "commit_sha": "80fc12bfa08acfd49ccfe1862eafdac0350108d3",
     "fuzzer": "canary",
-    "ok": true,
-    "seed_timestamp_start": 1720828532,
-    "seed_timestamp_end": 1720828533,
-    "seed": 14829712820906977149,
-    "command": "./zig/zig build -Drelease fuzz -- canary 14829712820906977149",
+    "ok": false,
+    "seed_timestamp_start": 1720834079,
+    "seed_timestamp_end": 1720834080,
+    "seed": 1249660554946875100,
+    "command": "./zig/zig build -Drelease fuzz -- canary 1249660554946875100",
+    "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/2104"
+  },
+  {
+    "commit_timestamp": 1720827420,
+    "commit_sha": "80fc12bfa08acfd49ccfe1862eafdac0350108d3",
+    "fuzzer": "vopr",
+    "ok": false,
+    "seed_timestamp_start": 1720834270,
+    "seed_timestamp_end": 1720834271,
+    "seed": 8143051721706315230,
+    "command": "./zig/zig build -Drelease vopr -- 8143051721706315230",
+    "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/2104"
+  },
+  {
+    "commit_timestamp": 1720827420,
+    "commit_sha": "80fc12bfa08acfd49ccfe1862eafdac0350108d3",
+    "fuzzer": "vopr",
+    "ok": false,
+    "seed_timestamp_start": 1720834382,
+    "seed_timestamp_end": 1720834385,
+    "seed": 7760086776001683970,
+    "command": "./zig/zig build -Drelease vopr -- 7760086776001683970",
     "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/2104"
   },
   {
@@ -63,28 +85,6 @@
     "seed_timestamp_end": 1720832300,
     "seed": 8224125817858316001,
     "command": "./zig/zig build -Drelease vopr -- 8224125817858316001",
-    "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/2104"
-  },
-  {
-    "commit_timestamp": 1720827420,
-    "commit_sha": "80fc12bfa08acfd49ccfe1862eafdac0350108d3",
-    "fuzzer": "vopr",
-    "ok": false,
-    "seed_timestamp_start": 1720828861,
-    "seed_timestamp_end": 1720828880,
-    "seed": 11490138812125623080,
-    "command": "./zig/zig build -Drelease vopr -- 11490138812125623080",
-    "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/2104"
-  },
-  {
-    "commit_timestamp": 1720827420,
-    "commit_sha": "80fc12bfa08acfd49ccfe1862eafdac0350108d3",
-    "fuzzer": "vopr",
-    "ok": false,
-    "seed_timestamp_start": 1720832487,
-    "seed_timestamp_end": 1720832507,
-    "seed": 2473485139571966096,
-    "command": "./zig/zig build -Drelease vopr -- 2473485139571966096",
     "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/2104"
   },
   {
