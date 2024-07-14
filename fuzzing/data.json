@@ -81,10 +81,10 @@
     "commit_sha": "73b723fc06b00e65b341cf62ee2c3032b4ce96b2",
     "fuzzer": "vopr",
     "ok": false,
-    "seed_timestamp_start": 1720985229,
-    "seed_timestamp_end": 1720985246,
-    "seed": 9153253028630961534,
-    "command": "./zig/zig build -Drelease vopr -- 9153253028630961534",
+    "seed_timestamp_start": 1720987209,
+    "seed_timestamp_end": 1720987225,
+    "seed": 4504993288886632799,
+    "command": "./zig/zig build -Drelease vopr -- 4504993288886632799",
     "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/2104"
   },
   {
