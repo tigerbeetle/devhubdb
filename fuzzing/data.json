@@ -3,6 +3,28 @@
     "commit_timestamp": 1721150521,
     "commit_sha": "1e76b749f1bd1b7b4a8a9ff43de8f06ecdbda01c",
     "fuzzer": "canary",
+    "ok": false,
+    "seed_timestamp_start": 1721153959,
+    "seed_timestamp_end": 1721153960,
+    "seed": 17092308877242464600,
+    "command": "./zig/zig build -Drelease fuzz -- canary 17092308877242464600",
+    "branch": "https://github.com/tigerbeetle/tigerbeetle"
+  },
+  {
+    "commit_timestamp": 1721150521,
+    "commit_sha": "1e76b749f1bd1b7b4a8a9ff43de8f06ecdbda01c",
+    "fuzzer": "canary",
+    "ok": false,
+    "seed_timestamp_start": 1721153597,
+    "seed_timestamp_end": 1721153599,
+    "seed": 3022252830841315200,
+    "command": "./zig/zig build -Drelease fuzz -- canary 3022252830841315200",
+    "branch": "https://github.com/tigerbeetle/tigerbeetle"
+  },
+  {
+    "commit_timestamp": 1721150521,
+    "commit_sha": "1e76b749f1bd1b7b4a8a9ff43de8f06ecdbda01c",
+    "fuzzer": "canary",
     "ok": true,
     "seed_timestamp_start": 1721151988,
     "seed_timestamp_end": 1721151989,
@@ -19,28 +41,6 @@
     "seed_timestamp_end": 1721152057,
     "seed": 16254372694410428001,
     "command": "./zig/zig build -Drelease fuzz -- canary 16254372694410428001",
-    "branch": "https://github.com/tigerbeetle/tigerbeetle"
-  },
-  {
-    "commit_timestamp": 1721150521,
-    "commit_sha": "1e76b749f1bd1b7b4a8a9ff43de8f06ecdbda01c",
-    "fuzzer": "canary",
-    "ok": true,
-    "seed_timestamp_start": 1721152061,
-    "seed_timestamp_end": 1721152062,
-    "seed": 11502604197313284066,
-    "command": "./zig/zig build -Drelease fuzz -- canary 11502604197313284066",
-    "branch": "https://github.com/tigerbeetle/tigerbeetle"
-  },
-  {
-    "commit_timestamp": 1721150521,
-    "commit_sha": "1e76b749f1bd1b7b4a8a9ff43de8f06ecdbda01c",
-    "fuzzer": "canary",
-    "ok": true,
-    "seed_timestamp_start": 1721152063,
-    "seed_timestamp_end": 1721152064,
-    "seed": 9570323983642707795,
-    "command": "./zig/zig build -Drelease fuzz -- canary 9570323983642707795",
     "branch": "https://github.com/tigerbeetle/tigerbeetle"
   },
   {
