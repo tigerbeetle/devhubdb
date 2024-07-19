@@ -444,10 +444,32 @@
     "commit_sha": "a92b9a05cbd75ee19bab54145cf89fdd0d63446b",
     "fuzzer": "vopr",
     "ok": false,
+    "seed_timestamp_start": 1721398355,
+    "seed_timestamp_end": 1721398408,
+    "seed": 15087614455921550046,
+    "command": "./zig/zig build -Drelease vopr -- 15087614455921550046",
+    "branch": "https://github.com/tigerbeetle/tigerbeetle"
+  },
+  {
+    "commit_timestamp": 1721380902,
+    "commit_sha": "a92b9a05cbd75ee19bab54145cf89fdd0d63446b",
+    "fuzzer": "vopr",
+    "ok": false,
     "seed_timestamp_start": 1721389663,
     "seed_timestamp_end": 1721389728,
     "seed": 6287038073834514818,
     "command": "./zig/zig build -Drelease vopr -- 6287038073834514818",
+    "branch": "https://github.com/tigerbeetle/tigerbeetle"
+  },
+  {
+    "commit_timestamp": 1721380902,
+    "commit_sha": "a92b9a05cbd75ee19bab54145cf89fdd0d63446b",
+    "fuzzer": "vopr",
+    "ok": false,
+    "seed_timestamp_start": 1721398484,
+    "seed_timestamp_end": 1721398557,
+    "seed": 16816239877126227044,
+    "command": "./zig/zig build -Drelease vopr -- 16816239877126227044",
     "branch": "https://github.com/tigerbeetle/tigerbeetle"
   },
   {
@@ -459,28 +481,6 @@
     "seed_timestamp_end": 1721382125,
     "seed": 2179603501472925705,
     "command": "./zig/zig build -Drelease vopr -- 2179603501472925705",
-    "branch": "https://github.com/tigerbeetle/tigerbeetle"
-  },
-  {
-    "commit_timestamp": 1721380902,
-    "commit_sha": "a92b9a05cbd75ee19bab54145cf89fdd0d63446b",
-    "fuzzer": "vopr",
-    "ok": true,
-    "seed_timestamp_start": 1721382140,
-    "seed_timestamp_end": 1721382141,
-    "seed": 4352227350468704774,
-    "command": "./zig/zig build -Drelease vopr -- 4352227350468704774",
-    "branch": "https://github.com/tigerbeetle/tigerbeetle"
-  },
-  {
-    "commit_timestamp": 1721380902,
-    "commit_sha": "a92b9a05cbd75ee19bab54145cf89fdd0d63446b",
-    "fuzzer": "vopr",
-    "ok": true,
-    "seed_timestamp_start": 1721382141,
-    "seed_timestamp_end": 1721382142,
-    "seed": 14781467369998475794,
-    "command": "./zig/zig build -Drelease vopr -- 14781467369998475794",
     "branch": "https://github.com/tigerbeetle/tigerbeetle"
   },
   {
