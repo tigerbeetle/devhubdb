@@ -5856,6 +5856,28 @@
     "commit_sha": "c0c5738a79c46c3486def07f65ad5e92a6fd8c40",
     "fuzzer": "canary",
     "ok": false,
+    "seed_timestamp_start": 1721698425,
+    "seed_timestamp_end": 1721698426,
+    "seed": 1370161757815751400,
+    "command": "./zig/zig build -Drelease fuzz -- canary 1370161757815751400",
+    "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/2104"
+  },
+  {
+    "commit_timestamp": 1721362197,
+    "commit_sha": "c0c5738a79c46c3486def07f65ad5e92a6fd8c40",
+    "fuzzer": "canary",
+    "ok": false,
+    "seed_timestamp_start": 1721698326,
+    "seed_timestamp_end": 1721698327,
+    "seed": 9372581028556542400,
+    "command": "./zig/zig build -Drelease fuzz -- canary 9372581028556542400",
+    "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/2104"
+  },
+  {
+    "commit_timestamp": 1721362197,
+    "commit_sha": "c0c5738a79c46c3486def07f65ad5e92a6fd8c40",
+    "fuzzer": "canary",
+    "ok": false,
     "seed_timestamp_start": 1721697330,
     "seed_timestamp_end": 1721697331,
     "seed": 7831642023811646100,
@@ -5871,28 +5893,6 @@
     "seed_timestamp_end": 1721696457,
     "seed": 5299762571671366300,
     "command": "./zig/zig build -Drelease fuzz -- canary 5299762571671366300",
-    "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/2104"
-  },
-  {
-    "commit_timestamp": 1721362197,
-    "commit_sha": "c0c5738a79c46c3486def07f65ad5e92a6fd8c40",
-    "fuzzer": "canary",
-    "ok": false,
-    "seed_timestamp_start": 1721696087,
-    "seed_timestamp_end": 1721696088,
-    "seed": 6272990055252469000,
-    "command": "./zig/zig build -Drelease fuzz -- canary 6272990055252469000",
-    "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/2104"
-  },
-  {
-    "commit_timestamp": 1721362197,
-    "commit_sha": "c0c5738a79c46c3486def07f65ad5e92a6fd8c40",
-    "fuzzer": "canary",
-    "ok": false,
-    "seed_timestamp_start": 1721693268,
-    "seed_timestamp_end": 1721693269,
-    "seed": 1972500124475464500,
-    "command": "./zig/zig build -Drelease fuzz -- canary 1972500124475464500",
     "branch": "https://github.com/tigerbeetle/tigerbeetle/pull/2104"
   },
   {
