@@ -5971,7 +5971,7 @@
     "commit_sha": "94931beadf172fe9cb5e39b8fbfff4fe6cb866ae",
     "fuzzer": "lsm_manifest_log",
     "ok": true,
-    "count": 755518,
+    "count": 755523,
     "seed_timestamp_start": 1753450644,
     "seed_timestamp_end": 1753450918,
     "seed": 9579961601960593494,
