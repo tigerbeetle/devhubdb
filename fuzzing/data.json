@@ -440,7 +440,7 @@
     "commit_sha": "21a7954fb0986c03de78525af2e1d14a508d9473",
     "fuzzer": "signal",
     "ok": true,
-    "count": 236050,
+    "count": 236092,
     "seed_timestamp_start": 1753456022,
     "seed_timestamp_end": 1753456024,
     "seed": 707608706902545750,
