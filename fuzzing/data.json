@@ -1308,7 +1308,7 @@
     "commit_sha": "ef4668776a8d290c510c2720e6f79d41f6abf935",
     "fuzzer": "lsm_scan",
     "ok": true,
-    "count": 102773,
+    "count": 102793,
     "seed_timestamp_start": 1753564965,
     "seed_timestamp_end": 1753565053,
     "seed": 12420961778224321702,
