@@ -597,7 +597,7 @@
     "commit_sha": "c84e63bf968aa0d9234a77fb5f5c77403d0cd176",
     "fuzzer": "lsm_forest",
     "ok": true,
-    "count": 988,
+    "count": 989,
     "seed_timestamp_start": 1754922100,
     "seed_timestamp_end": 1754922197,
     "seed": 3225521092033329312,
