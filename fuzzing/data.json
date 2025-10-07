@@ -1004,7 +1004,7 @@
     "commit_sha": "a1f56641ff30bbb16373cdcc14c916ece2c35237",
     "fuzzer": "message_bus",
     "ok": true,
-    "count": 2507270,
+    "count": 2507345,
     "seed_timestamp_start": 1759760973,
     "seed_timestamp_end": 1759761107,
     "seed": 12749204585525213349,
