@@ -656,7 +656,7 @@
     "commit_sha": "5e61319c6b4f7a99df869dec4b31b144efd0a1e5",
     "fuzzer": "vsr_multi_batch",
     "ok": true,
-    "count": 4457,
+    "count": 4489,
     "seed_timestamp_start": 1762304046,
     "seed_timestamp_end": 1762304057,
     "seed": 12477445465123253908,
