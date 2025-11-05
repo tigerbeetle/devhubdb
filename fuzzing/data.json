@@ -564,7 +564,7 @@
     "commit_sha": "74de2ed37527eb4e2ad0e3910f890b52aec289a8",
     "fuzzer": "vsr_free_set",
     "ok": true,
-    "count": 48724,
+    "count": 48743,
     "seed_timestamp_start": 1762347481,
     "seed_timestamp_end": 1762347491,
     "seed": 3366295081161229369,
