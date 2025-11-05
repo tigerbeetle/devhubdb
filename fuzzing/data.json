@@ -420,7 +420,7 @@
     "commit_sha": "74de2ed37527eb4e2ad0e3910f890b52aec289a8",
     "fuzzer": "lsm_scan",
     "ok": true,
-    "count": 17491,
+    "count": 17508,
     "seed_timestamp_start": 1762347261,
     "seed_timestamp_end": 1762347484,
     "seed": 5810569217654048009,
