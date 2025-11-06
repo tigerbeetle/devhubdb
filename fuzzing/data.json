@@ -456,7 +456,7 @@
     "commit_sha": "74de2ed37527eb4e2ad0e3910f890b52aec289a8",
     "fuzzer": "message_bus",
     "ok": true,
-    "count": 386285,
+    "count": 386352,
     "seed_timestamp_start": 1762347261,
     "seed_timestamp_end": 1762347484,
     "seed": 13771757607992164965,
