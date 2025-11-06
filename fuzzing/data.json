@@ -432,7 +432,7 @@
     "commit_sha": "74de2ed37527eb4e2ad0e3910f890b52aec289a8",
     "fuzzer": "lsm_segmented_array",
     "ok": true,
-    "count": 134446,
+    "count": 134494,
     "seed_timestamp_start": 1762347261,
     "seed_timestamp_end": 1762347484,
     "seed": 11662870403611723491,
