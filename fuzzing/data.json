@@ -588,7 +588,7 @@
     "commit_sha": "74de2ed37527eb4e2ad0e3910f890b52aec289a8",
     "fuzzer": "vsr_superblock",
     "ok": true,
-    "count": 665647,
+    "count": 665711,
     "seed_timestamp_start": 1762347481,
     "seed_timestamp_end": 1762347484,
     "seed": 8480332371534860482,
