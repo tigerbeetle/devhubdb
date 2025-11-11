@@ -565,7 +565,7 @@
     "commit_sha": "dafb825b1cbb2dc7342ac485707f2c4e0c702523",
     "fuzzer": "vopr_testing_lite",
     "ok": true,
-    "count": 756775,
+    "count": 756834,
     "seed_timestamp_start": 1762844182,
     "seed_timestamp_end": 1762844240,
     "seed": 15671926917772806457,
