@@ -1,0 +1,6 @@
+2025-11-17 18:13:02.597Z info(supervisor): output directory: /root/tigerbeetle/working/main/.zig-cache/tmp/13901252786931388292
+2025-11-17 18:13:02.597Z info(supervisor): starting test with target runtime of 10m
+2025-11-17 18:13:02.754Z info(supervisor): 0: starting replica
+2025-11-17 18:13:02.758Z info(io): opening "0_0.tigerbeetle"...
+2025-11-17 18:13:02.858Z info(supervisor): 1: starting replica
+2025-11-17 18:13:02.863Z info(io): opening "0_1.tigerbeetle"...
