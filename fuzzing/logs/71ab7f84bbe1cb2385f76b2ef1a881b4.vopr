@@ -1,0 +1,657 @@
+22f4a4155049a9a99a66b65fab568d parent=af0e6ef2a360701bd2ffd5b6b0bc588f sequence=1
+2025-11-17 16:26:49.552Z debug(superblock_quorums): copy: 1/4: checksum=3e22f4a4155049a9a99a66b65fab568d parent=af0e6ef2a360701bd2ffd5b6b0bc588f sequence=1
+2025-11-17 16:26:49.552Z debug(superblock_quorums): copy: 2/4: checksum=3e22f4a4155049a9a99a66b65fab568d parent=af0e6ef2a360701bd2ffd5b6b0bc588f sequence=1
+2025-11-17 16:26:49.552Z debug(superblock_quorums): copy: 3/4: checksum=3e22f4a4155049a9a99a66b65fab568d parent=af0e6ef2a360701bd2ffd5b6b0bc588f sequence=1
+2025-11-17 16:26:49.552Z debug(superblock_quorums): quorum: checksum=3e22f4a4155049a9a99a66b65fab568d parent=af0e6ef2a360701bd2ffd5b6b0bc588f sequence=1 count=4 valid=true
+2025-11-17 16:26:49.552Z debug(superblock): null: open: installed working superblock: checksum=3e22f4a4155049a9a99a66b65fab568d sequence=1 release=0.0.1 cluster=00000000000000000000000000000000 replica_id=308943487097555535311203420603596972560 size=1141374976 free_set_blocks_acquired_size=0 free_set_blocks_released_size=0 client_sessions_size=0 checkpoint_id=f222e9ce156b309eaeb4af665242ac18 commit_min_checksum=108034676951432761169128540124443993015 commit_min=0 commit_max=0 log_view=0 view=0 sync_op_min=0 sync_op_max=0 manifest_oldest_checksum=0 manifest_oldest_address=0 manifest_newest_checksum=0 manifest_newest_address=0 manifest_block_count=0 snapshots_block_checksum=0 snapshots_block_address=0
+2025-11-17 16:26:49.553Z debug(superblock): null: open: vsr_header: op=0 checksum=108034676951432761169128540124443993015
+2025-11-17 16:26:49.553Z debug(superblock): null: open: complete
+2025-11-17 16:26:49.554Z debug(journal): 1: slot_count=1024 size=1.000244140625GiB headers_size=256KiB prepares_size=1GiB
+2025-11-17 16:26:52.908Z info(main): multiversioning: upgrades disabled for development (0.0.1) release.
+2025-11-17 16:26:52.909Z info(main): release=0.0.1
+2025-11-17 16:26:52.909Z info(main): release_client_min=0.0.1
+2025-11-17 16:26:52.909Z info(main): releases_bundled={ 0.0.1 }
+2025-11-17 16:26:52.909Z info(main): git_commit=c13616ff2e359f1960f076d566d80c300df32d32
+2025-11-17 16:26:52.910Z debug(superblock): null: open: started
+2025-11-17 16:26:52.910Z debug(superblock): null: open: read_header: copy=0 size=8192 offset=0
+2025-11-17 16:26:52.911Z debug(superblock): null: open: read_header: copy=1 size=8192 offset=24576
+2025-11-17 16:26:52.911Z debug(superblock): null: open: read_header: copy=2 size=8192 offset=49152
+2025-11-17 16:26:52.911Z debug(superblock): null: open: read_header: copy=3 size=8192 offset=73728
+2025-11-17 16:26:52.911Z debug(superblock_quorums): copy: 0/4: checksum=5dcd18212fe02a10ec32fde780d86ab9 parent=926337a08f0ccc0df05d71073033c9ab sequence=1
+2025-11-17 16:26:52.911Z debug(superblock_quorums): copy: 1/4: checksum=5dcd18212fe02a10ec32fde780d86ab9 parent=926337a08f0ccc0df05d71073033c9ab sequence=1
+2025-11-17 16:26:52.912Z debug(superblock_quorums): copy: 2/4: checksum=5dcd18212fe02a10ec32fde780d86ab9 parent=926337a08f0ccc0df05d71073033c9ab sequence=1
+2025-11-17 16:26:52.912Z debug(superblock_quorums): copy: 3/4: checksum=5dcd18212fe02a10ec32fde780d86ab9 parent=926337a08f0ccc0df05d71073033c9ab sequence=1
+2025-11-17 16:26:52.912Z debug(superblock_quorums): quorum: checksum=5dcd18212fe02a10ec32fde780d86ab9 parent=926337a08f0ccc0df05d71073033c9ab sequence=1 count=4 valid=true
+2025-11-17 16:26:52.912Z debug(superblock): null: open: installed working superblock: checksum=5dcd18212fe02a10ec32fde780d86ab9 sequence=1 release=0.0.1 cluster=00000000000000000000000000000000 replica_id=6631497259249714216115321696697026497 size=1141374976 free_set_blocks_acquired_size=0 free_set_blocks_released_size=0 client_sessions_size=0 checkpoint_id=f222e9ce156b309eaeb4af665242ac18 commit_min_checksum=108034676951432761169128540124443993015 commit_min=0 commit_max=0 log_view=0 view=0 sync_op_min=0 sync_op_max=0 manifest_oldest_checksum=0 manifest_oldest_address=0 manifest_newest_checksum=0 manifest_newest_address=0 manifest_block_count=0 snapshots_block_checksum=0 snapshots_block_address=0
+2025-11-17 16:26:52.912Z debug(superblock): null: open: vsr_header: op=0 checksum=108034676951432761169128540124443993015
+2025-11-17 16:26:52.912Z debug(superblock): null: open: complete
+2025-11-17 16:26:52.913Z debug(journal): 0: slot_count=1024 size=1.000244140625GiB headers_size=256KiB prepares_size=1GiB
+2025-11-17 16:26:57.145Z info(supervisor): 2: starting replica
+2025-11-17 16:26:57.146Z info(supervisor): launching workload with driver: /root/tigerbeetle/working/main/.zig-cache/o/bf1afbd072a5016e7f7170f358a13aa4/vortex driver
+2025-11-17 16:26:57.182Z info(io): opening "0_2.tigerbeetle"...
+2025-11-17 16:26:57.914Z info(supervisor): injecting network loss: testing.vortex.faulty_network.Faults{ .delay = null, .lose = 5/100, .corrupt = null }
+2025-11-17 16:26:57.924Z info(supervisor): 2: terminating replica
+2025-11-17 16:26:57.931Z info(zig_driver): addresses: 41401,45445,34335
+2025-11-17 16:26:58.027Z warning(faulty_network): connect failed (0,0): error.ConnectionRefused
+2025-11-17 16:26:58.033Z warning(faulty_network): connect failed (1,0): error.ConnectionRefused
+2025-11-17 16:26:58.037Z info(supervisor): sleeping for 1.445s
+2025-11-17 16:26:58.044Z warning(faulty_network): connect failed (2,0): error.ConnectionRefused
+2025-11-17 16:26:58.111Z warning(faulty_network): connect failed (0,1): error.ConnectionRefused
+2025-11-17 16:26:58.128Z warning(faulty_network): connect failed (2,1): error.ConnectionRefused
+2025-11-17 16:26:58.135Z warning(faulty_network): connect failed (1,1): error.ConnectionRefused
+2025-11-17 16:26:58.200Z warning(faulty_network): connect failed (0,2): error.ConnectionRefused
+2025-11-17 16:26:58.202Z warning(faulty_network): connect failed (1,2): error.ConnectionRefused
+2025-11-17 16:26:58.213Z warning(faulty_network): connect failed (2,2): error.ConnectionRefused
+2025-11-17 16:26:58.268Z warning(faulty_network): connect failed (0,3): error.ConnectionRefused
+2025-11-17 16:26:58.294Z warning(faulty_network): connect failed (1,3): error.ConnectionRefused
+2025-11-17 16:26:58.309Z warning(faulty_network): connect failed (2,3): error.ConnectionRefused
+2025-11-17 16:26:58.350Z warning(faulty_network): connect failed (0,4): error.ConnectionRefused
+2025-11-17 16:26:58.369Z warning(faulty_network): connect failed (1,4): error.ConnectionRefused
+2025-11-17 16:26:58.403Z warning(faulty_network): connect failed (0,5): error.ConnectionRefused
+2025-11-17 16:26:58.408Z warning(faulty_network): connect failed (2,4): error.ConnectionRefused
+2025-11-17 16:26:58.462Z warning(faulty_network): connect failed (1,5): error.ConnectionRefused
+2025-11-17 16:26:58.471Z warning(faulty_network): connect failed (2,5): error.ConnectionRefused
+2025-11-17 16:26:58.482Z warning(faulty_network): connect failed (0,6): error.ConnectionRefused
+2025-11-17 16:26:58.553Z warning(faulty_network): connect failed (1,6): error.ConnectionRefused
+2025-11-17 16:26:58.558Z warning(faulty_network): connect failed (0,7): error.ConnectionRefused
+warning(message_bus): 329568007036446883824874990337780591568: on_recv: from=vsr.Peer{ .replica = 0 } error.ConnectionResetByPeer
+2025-11-17 16:26:59.112Z warning(faulty_network): connect failed (2,6): error.ConnectionRefused
+2025-11-17 16:26:59.112Z warning(faulty_network): connect failed (1,7): error.ConnectionRefused
+2025-11-17 16:26:59.112Z warning(faulty_network): connect failed (0,8): error.ConnectionRefused
+warning(message_bus): 329568007036446883824874990337780591568: on_recv: from=vsr.Peer{ .replica = 2 } error.ConnectionResetByPeer
+2025-11-17 16:26:59.167Z warning(faulty_network): connect failed (2,7): error.ConnectionRefused
+2025-11-17 16:26:59.184Z warning(faulty_network): connect failed (1,8): error.ConnectionRefused
+2025-11-17 16:26:59.193Z warning(faulty_network): connect failed (0,9): error.ConnectionRefused
+2025-11-17 16:26:59.252Z warning(faulty_network): connect failed (2,8): error.ConnectionRefused
+2025-11-17 16:26:59.258Z warning(faulty_network): connect failed (1,9): error.ConnectionRefused
+2025-11-17 16:26:59.269Z warning(faulty_network): connect failed (0,0): error.ConnectionRefused
+2025-11-17 16:26:59.317Z warning(faulty_network): connect failed (2,9): error.ConnectionRefused
+2025-11-17 16:26:59.325Z warning(faulty_network): connect failed (1,0): error.ConnectionRefused
+2025-11-17 16:26:59.365Z warning(faulty_network): connect failed (0,1): error.ConnectionRefused
+warning(message_bus): 329568007036446883824874990337780591568: on_recv: from=vsr.Peer{ .replica = 0 } error.ConnectionResetByPeer
+2025-11-17 16:26:59.485Z info(supervisor): sleeping for 4.103s
+2025-11-17 16:26:59.611Z warning(faulty_network): connect failed (1,1): error.ConnectionRefused
+2025-11-17 16:26:59.611Z warning(faulty_network): connect failed (2,0): error.ConnectionRefused
+warning(message_bus): 329568007036446883824874990337780591568: on_recv: from=vsr.Peer{ .replica = 2 } error.ConnectionResetByPeer
+2025-11-17 16:26:59.650Z warning(faulty_network): connect failed (0,2): error.ConnectionRefused
+2025-11-17 16:26:59.684Z warning(faulty_network): connect failed (1,2): error.ConnectionRefused
+2025-11-17 16:26:59.687Z warning(faulty_network): connect failed (2,1): error.ConnectionRefused
+2025-11-17 16:26:59.764Z warning(faulty_network): connect failed (0,3): error.ConnectionRefused
+2025-11-17 16:26:59.776Z warning(faulty_network): connect failed (1,3): error.ConnectionRefused
+2025-11-17 16:26:59.811Z warning(faulty_network): connect failed (2,2): error.ConnectionRefused
+2025-11-17 16:26:59.844Z warning(faulty_network): connect failed (1,4): error.ConnectionRefused
+2025-11-17 16:26:59.847Z warning(faulty_network): connect failed (0,4): error.ConnectionRefused
+2025-11-17 16:26:59.918Z warning(faulty_network): connect failed (2,3): error.ConnectionRefused
+2025-11-17 16:26:59.918Z warning(faulty_network): connect failed (0,5): error.ConnectionRefused
+2025-11-17 16:26:59.939Z warning(faulty_network): connect failed (1,5): error.ConnectionRefused
+2025-11-17 16:27:00.408Z warning(faulty_network): connect failed (0,6): error.ConnectionRefused
+2025-11-17 16:27:00.420Z warning(faulty_network): connect failed (2,4): error.ConnectionRefused
+2025-11-17 16:27:00.420Z warning(faulty_network): connect failed (1,6): error.ConnectionRefused
+warning(message_bus): 329568007036446883824874990337780591568: on_recv: from=vsr.Peer{ .replica = 0 } error.ConnectionResetByPeer
+warning(message_bus): 329568007036446883824874990337780591568: on_recv: from=vsr.Peer{ .replica = 2 } error.ConnectionResetByPeer
+2025-11-17 16:27:00.491Z warning(faulty_network): connect failed (2,5): error.ConnectionRefused
+2025-11-17 16:27:00.491Z warning(faulty_network): connect failed (1,7): error.ConnectionRefused
+2025-11-17 16:27:00.526Z warning(faulty_network): connect failed (0,7): error.ConnectionRefused
+2025-11-17 16:27:00.566Z warning(faulty_network): connect failed (1,8): error.ConnectionRefused
+2025-11-17 16:27:00.575Z warning(faulty_network): connect failed (2,6): error.ConnectionRefused
+2025-11-17 16:27:00.600Z warning(faulty_network): connect failed (0,8): error.ConnectionRefused
+2025-11-17 16:27:00.654Z warning(faulty_network): connect failed (1,9): error.ConnectionRefused
+2025-11-17 16:27:00.682Z warning(faulty_network): connect failed (2,7): error.ConnectionRefused
+2025-11-17 16:27:00.705Z warning(faulty_network): connect failed (0,9): error.ConnectionRefused
+2025-11-17 16:27:00.735Z warning(faulty_network): connect failed (1,0): error.ConnectionRefused
+2025-11-17 16:27:00.775Z warning(faulty_network): connect failed (0,0): error.ConnectionRefused
+2025-11-17 16:27:00.783Z warning(faulty_network): connect failed (2,8): error.ConnectionRefused
+2025-11-17 16:27:00.791Z warning(faulty_network): connect failed (1,1): error.ConnectionRefused
+2025-11-17 16:27:00.858Z warning(faulty_network): connect failed (0,1): error.ConnectionRefused
+2025-11-17 16:27:00.877Z warning(faulty_network): connect failed (1,2): error.ConnectionRefused
+2025-11-17 16:27:00.886Z warning(faulty_network): connect failed (2,9): error.ConnectionRefused
+2025-11-17 16:27:00.961Z warning(faulty_network): connect failed (1,3): error.ConnectionRefused
+warning(message_bus): 329568007036446883824874990337780591568: on_recv: from=vsr.Peer{ .replica = 1 } error.ConnectionResetByPeer
+2025-11-17 16:27:00.967Z warning(faulty_network): connect failed (0,2): error.ConnectionRefused
+warning(message_bus): 329568007036446883824874990337780591568: on_recv: from=vsr.Peer{ .replica = 0 } error.ConnectionResetByPeer
+2025-11-17 16:27:00.972Z warning(faulty_network): connect failed (2,0): error.ConnectionRefused
+2025-11-17 16:27:01.758Z warning(faulty_network): connect failed (1,4): error.ConnectionRefused
+2025-11-17 16:27:01.790Z warning(faulty_network): connect failed (2,1): error.ConnectionRefused
+2025-11-17 16:27:01.790Z warning(faulty_network): connect failed (0,3): error.ConnectionRefused
+2025-11-17 16:27:02.280Z warning(faulty_network): connect failed (0,4): error.ConnectionRefused
+2025-11-17 16:27:02.280Z warning(faulty_network): connect failed (1,5): error.ConnectionRefused
+2025-11-17 16:27:02.280Z warning(faulty_network): connect failed (2,2): error.ConnectionRefused
+2025-11-17 16:27:02.345Z warning(faulty_network): connect failed (1,6): error.ConnectionRefused
+2025-11-17 16:27:02.358Z warning(faulty_network): connect failed (0,5): error.ConnectionRefused
+2025-11-17 16:27:02.387Z warning(faulty_network): connect failed (2,3): error.ConnectionRefused
+2025-11-17 16:27:02.437Z warning(faulty_network): connect failed (1,7): error.ConnectionRefused
+2025-11-17 16:27:02.458Z warning(faulty_network): connect failed (0,6): error.ConnectionRefused
+2025-11-17 16:27:02.477Z warning(faulty_network): connect failed (2,4): error.ConnectionRefused
+2025-11-17 16:27:02.508Z warning(faulty_network): connect failed (1,8): error.ConnectionRefused
+2025-11-17 16:27:02.553Z warning(faulty_network): connect failed (0,7): error.ConnectionRefused
+2025-11-17 16:27:02.588Z warning(faulty_network): connect failed (2,5): error.ConnectionRefused
+2025-11-17 16:27:02.596Z warning(faulty_network): connect failed (1,9): error.ConnectionRefused
+2025-11-17 16:27:02.648Z warning(faulty_network): connect failed (1,0): error.ConnectionRefused
+2025-11-17 16:27:02.658Z warning(faulty_network): connect failed (0,8): error.ConnectionRefused
+2025-11-17 16:27:02.690Z warning(faulty_network): connect failed (2,6): error.ConnectionRefused
+2025-11-17 16:27:02.880Z warning(faulty_network): connect failed (1,1): error.ConnectionRefused
+2025-11-17 16:27:02.881Z warning(faulty_network): connect failed (0,9): error.ConnectionRefused
+2025-11-17 16:27:02.942Z warning(faulty_network): connect failed (0,0): error.ConnectionRefused
+2025-11-17 16:27:02.956Z warning(faulty_network): connect failed (1,2): error.ConnectionRefused
+2025-11-17 16:27:02.967Z warning(faulty_network): connect failed (2,7): error.ConnectionRefused
+2025-11-17 16:27:03.028Z warning(faulty_network): connect failed (2,8): error.ConnectionRefused
+2025-11-17 16:27:03.040Z warning(faulty_network): connect failed (1,3): error.ConnectionRefused
+2025-11-17 16:27:03.043Z warning(faulty_network): connect failed (0,1): error.ConnectionRefused
+2025-11-17 16:27:03.094Z warning(faulty_network): connect failed (2,9): error.ConnectionRefused
+2025-11-17 16:27:03.120Z warning(faulty_network): connect failed (1,4): error.ConnectionRefused
+warning(message_bus): 329568007036446883824874990337780591568: on_recv: from=vsr.Peer{ .replica = 1 } error.ConnectionResetByPeer
+2025-11-17 16:27:03.260Z warning(faulty_network): connect failed (0,2): error.ConnectionRefused
+warning(message_bus): 329568007036446883824874990337780591568: on_recv: from=vsr.Peer{ .replica = 0 } error.ConnectionResetByPeer
+2025-11-17 16:27:03.260Z warning(faulty_network): connect failed (1,5): error.ConnectionRefused
+2025-11-17 16:27:03.260Z warning(faulty_network): connect failed (2,0): error.ConnectionRefused
+2025-11-17 16:27:03.348Z warning(faulty_network): connect failed (2,1): error.ConnectionRefused
+2025-11-17 16:27:03.357Z warning(faulty_network): connect failed (0,3): error.ConnectionRefused
+2025-11-17 16:27:03.383Z warning(faulty_network): connect failed (1,6): error.ConnectionRefused
+2025-11-17 16:27:03.625Z info(supervisor): healing network
+2025-11-17 16:27:03.659Z warning(faulty_network): connect failed (2,2): error.ConnectionRefused
+2025-11-17 16:27:03.659Z warning(faulty_network): connect failed (1,7): error.ConnectionRefused
+2025-11-17 16:27:03.659Z warning(faulty_network): connect failed (0,4): error.ConnectionRefused
+2025-11-17 16:27:03.673Z info(supervisor): 1: pausing replica
+2025-11-17 16:27:03.712Z warning(faulty_network): connect failed (0,5): error.ConnectionRefused
+2025-11-17 16:27:03.722Z info(supervisor): sleeping for 9.458s
+2025-11-17 16:27:03.750Z warning(faulty_network): connect failed (1,8): error.ConnectionRefused
+2025-11-17 16:27:03.751Z warning(faulty_network): connect failed (2,3): error.ConnectionRefused
+2025-11-17 16:27:03.782Z warning(faulty_network): connect failed (0,6): error.ConnectionRefused
+2025-11-17 16:27:03.816Z warning(faulty_network): connect failed (2,4): error.ConnectionRefused
+2025-11-17 16:27:03.852Z warning(faulty_network): connect failed (1,9): error.ConnectionRefused
+2025-11-17 16:27:03.872Z warning(faulty_network): connect failed (0,7): error.ConnectionRefused
+2025-11-17 16:27:03.878Z warning(faulty_network): connect failed (2,5): error.ConnectionRefused
+2025-11-17 16:27:03.943Z warning(faulty_network): connect failed (0,8): error.ConnectionRefused
+2025-11-17 16:27:03.947Z warning(faulty_network): connect failed (2,6): error.ConnectionRefused
+2025-11-17 16:27:03.960Z warning(faulty_network): connect failed (1,0): error.ConnectionRefused
+2025-11-17 16:27:04.009Z warning(faulty_network): connect failed (2,7): error.ConnectionRefused
+2025-11-17 16:27:04.027Z warning(faulty_network): connect failed (0,9): error.ConnectionRefused
+2025-11-17 16:27:04.044Z warning(faulty_network): connect failed (1,1): error.ConnectionRefused
+2025-11-17 16:27:04.100Z warning(faulty_network): connect failed (2,8): error.ConnectionRefused
+2025-11-17 16:27:04.100Z warning(faulty_network): connect failed (0,0): error.ConnectionRefused
+2025-11-17 16:27:04.112Z warning(faulty_network): connect failed (1,2): error.ConnectionRefused
+2025-11-17 16:27:04.174Z warning(faulty_network): connect failed (2,9): error.ConnectionRefused
+warning(message_bus): 329568007036446883824874990337780591568: on_recv: from=vsr.Peer{ .replica = 2 } error.ConnectionResetByPeer
+2025-11-17 16:27:04.303Z warning(faulty_network): connect failed (1,3): error.ConnectionRefused
+2025-11-17 16:27:04.303Z warning(faulty_network): connect failed (0,1): error.ConnectionRefused
+warning(message_bus): 329568007036446883824874990337780591568: on_recv: from=vsr.Peer{ .replica = 0 } error.ConnectionResetByPeer
+2025-11-17 16:27:04.383Z warning(faulty_network): connect failed (0,2): error.ConnectionRefused
+2025-11-17 16:27:05.369Z warning(faulty_network): connect failed (2,0): error.ConnectionRefused
+2025-11-17 16:27:05.369Z warning(faulty_network): connect failed (1,4): error.ConnectionRefused
+2025-11-17 16:27:05.441Z warning(faulty_network): connect failed (0,3): error.ConnectionRefused
+2025-11-17 16:27:05.445Z warning(faulty_network): connect failed (1,5): error.ConnectionRefused
+2025-11-17 16:27:05.495Z warning(faulty_network): connect failed (2,1): error.ConnectionRefused
+2025-11-17 16:27:05.535Z warning(faulty_network): connect failed (0,4): error.ConnectionRefused
+2025-11-17 16:27:05.539Z warning(faulty_network): connect failed (1,6): error.ConnectionRefused
+2025-11-17 16:27:05.565Z warning(faulty_network): connect failed (2,2): error.ConnectionRefused
+2025-11-17 16:27:05.620Z warning(faulty_network): connect failed (1,7): error.ConnectionRefused
+2025-11-17 16:27:05.636Z warning(faulty_network): connect failed (0,5): error.ConnectionRefused
+2025-11-17 16:27:05.652Z warning(faulty_network): connect failed (2,3): error.ConnectionRefused
+2025-11-17 16:27:05.712Z warning(faulty_network): connect failed (1,8): error.ConnectionRefused
+2025-11-17 16:27:05.732Z warning(faulty_network): connect failed (0,6): error.ConnectionRefused
+2025-11-17 16:27:05.732Z warning(faulty_network): connect failed (2,4): error.ConnectionRefused
+2025-11-17 16:27:05.791Z warning(faulty_network): connect failed (0,7): error.ConnectionRefused
+2025-11-17 16:27:05.799Z warning(faulty_network): connect failed (2,5): error.ConnectionRefused
+2025-11-17 16:27:05.940Z warning(faulty_network): connect failed (1,9): error.ConnectionRefused
+2025-11-17 16:27:05.940Z warning(faulty_network): connect failed (0,8): error.ConnectionRefused
+2025-11-17 16:27:05.940Z warning(faulty_network): connect failed (2,6): error.ConnectionRefused
+2025-11-17 16:27:06.007Z warning(faulty_network): connect failed (2,7): error.ConnectionRefused
+2025-11-17 16:27:06.007Z warning(faulty_network): connect failed (1,0): error.ConnectionRefused
+2025-11-17 16:27:06.015Z warning(faulty_network): connect failed (0,9): error.ConnectionRefused
+2025-11-17 16:27:06.106Z warning(faulty_network): connect failed (2,8): error.ConnectionRefused
+2025-11-17 16:27:06.106Z warning(faulty_network): connect failed (0,0): error.ConnectionRefused
+2025-11-17 16:27:06.117Z warning(faulty_network): connect failed (1,1): error.ConnectionRefused
+2025-11-17 16:27:06.180Z warning(faulty_network): connect failed (2,9): error.ConnectionRefused
+2025-11-17 16:27:06.195Z warning(faulty_network): connect failed (0,1): error.ConnectionRefused
+2025-11-17 16:27:06.228Z warning(faulty_network): connect failed (1,2): error.ConnectionRefused
+2025-11-17 16:27:06.258Z warning(faulty_network): connect failed (2,0): error.ConnectionRefused
+2025-11-17 16:27:06.306Z warning(faulty_network): connect failed (0,2): error.ConnectionRefused
+2025-11-17 16:27:06.331Z warning(faulty_network): connect failed (1,3): error.ConnectionRefused
+2025-11-17 16:27:06.332Z warning(faulty_network): connect failed (2,1): error.ConnectionRefused
+2025-11-17 16:27:06.821Z warning(faulty_network): connect failed (0,3): error.ConnectionRefused
+2025-11-17 16:27:06.821Z warning(faulty_network): connect failed (1,4): error.ConnectionRefused
+2025-11-17 16:27:06.821Z warning(faulty_network): connect failed (2,2): error.ConnectionRefused
+2025-11-17 16:27:06.904Z warning(faulty_network): connect failed (0,4): error.ConnectionRefused
+2025-11-17 16:27:06.911Z warning(faulty_network): connect failed (1,5): error.ConnectionRefused
+2025-11-17 16:27:06.932Z warning(faulty_network): connect failed (2,3): error.ConnectionRefused
+2025-11-17 16:27:06.993Z warning(faulty_network): connect failed (0,5): error.ConnectionRefused
+2025-11-17 16:27:07.013Z warning(faulty_network): connect failed (1,6): error.ConnectionRefused
+2025-11-17 16:27:07.019Z warning(faulty_network): connect failed (2,4): error.ConnectionRefused
+2025-11-17 16:27:07.091Z warning(faulty_network): connect failed (0,6): error.ConnectionRefused
+warning(message_bus): 329568007036446883824874990337780591568: on_recv: from=vsr.Peer{ .replica = 0 } error.ConnectionResetByPeer
+2025-11-17 16:27:07.123Z warning(faulty_network): connect failed (2,5): error.ConnectionRefused
+2025-11-17 16:27:07.124Z warning(faulty_network): connect failed (1,7): error.ConnectionRefused
+warning(message_bus): 329568007036446883824874990337780591568: on_recv: from=vsr.Peer{ .replica = 2 } error.ConnectionResetByPeer
+2025-11-17 16:27:07.200Z warning(faulty_network): connect failed (2,6): error.ConnectionRefused
+2025-11-17 16:27:07.216Z warning(faulty_network): connect failed (0,7): error.ConnectionRefused
+2025-11-17 16:27:07.221Z warning(faulty_network): connect failed (1,8): error.ConnectionRefused
+2025-11-17 16:27:07.287Z warning(faulty_network): connect failed (1,9): error.ConnectionRefused
+2025-11-17 16:27:07.302Z warning(faulty_network): connect failed (2,7): error.ConnectionRefused
+2025-11-17 16:27:07.320Z warning(faulty_network): connect failed (0,8): error.ConnectionRefused
+2025-11-17 16:27:07.351Z warning(faulty_network): connect failed (1,0): error.ConnectionRefused
+2025-11-17 16:27:07.377Z warning(faulty_network): connect failed (0,9): error.ConnectionRefused
+2025-11-17 16:27:07.389Z warning(faulty_network): connect failed (2,8): error.ConnectionRefused
+2025-11-17 16:27:07.414Z warning(faulty_network): connect failed (1,1): error.ConnectionRefused
+2025-11-17 16:27:07.466Z warning(faulty_network): connect failed (0,0): error.ConnectionRefused
+2025-11-17 16:27:07.468Z warning(faulty_network): connect failed (2,9): error.ConnectionRefused
+2025-11-17 16:27:07.491Z warning(faulty_network): connect failed (1,2): error.ConnectionRefused
+2025-11-17 16:27:07.521Z warning(faulty_network): connect failed (2,0): error.ConnectionRefused
+2025-11-17 16:27:07.543Z warning(faulty_network): connect failed (0,1): error.ConnectionRefused
+2025-11-17 16:27:07.551Z warning(faulty_network): connect failed (1,3): error.ConnectionRefused
+2025-11-17 16:27:08.339Z warning(faulty_network): connect failed (2,1): error.ConnectionRefused
+2025-11-17 16:27:08.999Z warning(faulty_network): connect failed (1,4): error.ConnectionRefused
+2025-11-17 16:27:08.999Z warning(faulty_network): connect failed (0,2): error.ConnectionRefused
+2025-11-17 16:27:09.105Z warning(faulty_network): connect failed (0,3): error.ConnectionRefused
+2025-11-17 16:27:09.126Z warning(faulty_network): connect failed (2,2): error.ConnectionRefused
+2025-11-17 16:27:09.126Z warning(faulty_network): connect failed (1,5): error.ConnectionRefused
+2025-11-17 16:27:09.192Z warning(faulty_network): connect failed (0,4): error.ConnectionRefused
+2025-11-17 16:27:09.202Z warning(faulty_network): connect failed (2,3): error.ConnectionRefused
+2025-11-17 16:27:09.259Z warning(faulty_network): connect failed (1,6): error.ConnectionRefused
+2025-11-17 16:27:09.717Z warning(faulty_network): connect failed (0,5): error.ConnectionRefused
+2025-11-17 16:27:09.717Z warning(faulty_network): connect failed (2,4): error.ConnectionRefused
+2025-11-17 16:27:09.717Z warning(faulty_network): connect failed (1,7): error.ConnectionRefused
+2025-11-17 16:27:09.795Z warning(faulty_network): connect failed (1,8): error.ConnectionRefused
+2025-11-17 16:27:09.810Z warning(faulty_network): connect failed (0,6): error.ConnectionRefused
+2025-11-17 16:27:09.818Z warning(faulty_network): connect failed (2,5): error.ConnectionRefused
+2025-11-17 16:27:09.866Z warning(faulty_network): connect failed (1,9): error.ConnectionRefused
+2025-11-17 16:27:09.901Z warning(faulty_network): connect failed (0,7): error.ConnectionRefused
+warning(message_bus): 329568007036446883824874990337780591568: on_recv: from=vsr.Peer{ .replica = 0 } error.ConnectionResetByPeer
+2025-11-17 16:27:09.915Z warning(faulty_network): connect failed (2,6): error.ConnectionRefused
+2025-11-17 16:27:09.956Z warning(faulty_network): connect failed (0,8): error.ConnectionRefused
+2025-11-17 16:27:09.965Z warning(faulty_network): connect failed (1,0): error.ConnectionRefused
+2025-11-17 16:27:10.252Z warning(faulty_network): connect failed (2,7): error.ConnectionRefused
+2025-11-17 16:27:10.285Z warning(faulty_network): connect failed (1,1): error.ConnectionRefused
+2025-11-17 16:27:10.314Z warning(faulty_network): connect failed (0,9): error.ConnectionRefused
+2025-11-17 16:27:10.348Z warning(faulty_network): connect failed (2,8): error.ConnectionRefused
+2025-11-17 16:27:10.352Z warning(faulty_network): connect failed (1,2): error.ConnectionRefused
+2025-11-17 16:27:10.404Z warning(faulty_network): connect failed (0,0): error.ConnectionRefused
+2025-11-17 16:27:10.417Z warning(faulty_network): connect failed (1,3): error.ConnectionRefused
+2025-11-17 16:27:10.589Z warning(faulty_network): connect failed (2,9): error.ConnectionRefused
+2025-11-17 16:27:10.589Z warning(faulty_network): connect failed (0,1): error.ConnectionRefused
+2025-11-17 16:27:10.236Z debug(manifest_log): 0: Manifest.Pace.half_bar_append_blocks_max = 1
+2025-11-17 16:27:10.686Z debug(manifest_log): 0: Manifest.Pace.half_bar_compact_blocks_max = 2
+2025-11-17 16:27:10.688Z debug(manifest_log): 0: Manifest.Pace.log_blocks_full_max = 586
+2025-11-17 16:27:10.688Z debug(manifest_log): 0: Manifest.Pace.log_blocks_cycle_max = 1172
+2025-11-17 16:27:10.688Z debug(manifest_log): 0: Manifest.Pace.log_blocks_max = 1466
+2025-11-17 16:27:10.688Z debug(manifest_log): 0: Manifest.Pace.tables_max = 2396744
+2025-11-17 16:27:10.781Z warning(faulty_network): connect failed (1,4): error.ConnectionRefused
+2025-11-17 16:27:10.783Z warning(faulty_network): connect failed (0,2): error.ConnectionRefused
+2025-11-17 16:27:10.801Z warning(faulty_network): connect failed (2,0): error.ConnectionRefused
+2025-11-17 16:27:10.860Z warning(faulty_network): connect failed (2,1): error.ConnectionRefused
+2025-11-17 16:27:10.861Z warning(faulty_network): connect failed (1,5): error.ConnectionRefused
+2025-11-17 16:27:10.863Z warning(faulty_network): connect failed (0,3): error.ConnectionRefused
+2025-11-17 16:27:10.926Z warning(faulty_network): connect failed (1,6): error.ConnectionRefused
+2025-11-17 16:27:10.926Z warning(faulty_network): connect failed (2,2): error.ConnectionRefused
+2025-11-17 16:27:10.959Z warning(faulty_network): connect failed (0,4): error.ConnectionRefused
+2025-11-17 16:27:11.006Z warning(faulty_network): connect failed (2,3): error.ConnectionRefused
+2025-11-17 16:27:11.022Z warning(faulty_network): connect failed (1,7): error.ConnectionRefused
+2025-11-17 16:27:11.045Z warning(faulty_network): connect failed (0,5): error.ConnectionRefused
+2025-11-17 16:27:11.107Z warning(faulty_network): connect failed (2,4): error.ConnectionRefused
+2025-11-17 16:27:11.116Z warning(faulty_network): connect failed (1,8): error.ConnectionRefused
+2025-11-17 16:27:11.122Z warning(faulty_network): connect failed (0,6): error.ConnectionRefused
+2025-11-17 16:27:11.191Z warning(faulty_network): connect failed (1,9): error.ConnectionRefused
+2025-11-17 16:27:11.196Z warning(faulty_network): connect failed (2,5): error.ConnectionRefused
+2025-11-17 16:27:11.196Z warning(faulty_network): connect failed (0,7): error.ConnectionRefused
+2025-11-17 16:27:11.262Z warning(faulty_network): connect failed (2,6): error.ConnectionRefused
+2025-11-17 16:27:11.275Z warning(faulty_network): connect failed (0,8): error.ConnectionRefused
+2025-11-17 16:27:11.291Z warning(faulty_network): connect failed (1,0): error.ConnectionRefused
+2025-11-17 16:27:11.333Z warning(faulty_network): connect failed (2,7): error.ConnectionRefused
+2025-11-17 16:27:11.355Z warning(faulty_network): connect failed (1,1): error.ConnectionRefused
+2025-11-17 16:27:11.378Z warning(faulty_network): connect failed (0,9): error.ConnectionRefused
+2025-11-17 16:27:11.613Z warning(faulty_network): connect failed (1,2): error.ConnectionRefused
+2025-11-17 16:27:11.623Z warning(faulty_network): connect failed (0,0): error.ConnectionRefused
+2025-11-17 16:27:11.623Z warning(faulty_network): connect failed (2,8): error.ConnectionRefused
+2025-11-17 16:27:11.715Z warning(faulty_network): connect failed (1,3): error.ConnectionRefused
+2025-11-17 16:27:11.726Z warning(faulty_network): connect failed (0,1): error.ConnectionRefused
+2025-11-17 16:27:11.732Z warning(faulty_network): connect failed (2,9): error.ConnectionRefused
+2025-11-17 16:27:11.786Z warning(faulty_network): connect failed (1,4): error.ConnectionRefused
+2025-11-17 16:27:11.791Z warning(faulty_network): connect failed (2,0): error.ConnectionRefused
+2025-11-17 16:27:11.813Z warning(faulty_network): connect failed (0,2): error.ConnectionRefused
+2025-11-17 16:27:11.847Z warning(faulty_network): connect failed (1,5): error.ConnectionRefused
+2025-11-17 16:27:11.882Z warning(faulty_network): connect failed (0,3): error.ConnectionRefused
+2025-11-17 16:27:11.893Z warning(faulty_network): connect failed (2,1): error.ConnectionRefused
+2025-11-17 16:27:11.948Z warning(faulty_network): connect failed (1,6): error.ConnectionRefused
+2025-11-17 16:27:11.955Z warning(faulty_network): connect failed (2,2): error.ConnectionRefused
+2025-11-17 16:27:11.959Z warning(faulty_network): connect failed (0,4): error.ConnectionRefused
+2025-11-17 16:27:12.021Z warning(faulty_network): connect failed (1,7): error.ConnectionRefused
+2025-11-17 16:27:12.046Z warning(faulty_network): connect failed (2,3): error.ConnectionRefused
+2025-11-17 16:27:12.063Z warning(faulty_network): connect failed (0,5): error.ConnectionRefused
+2025-11-17 16:27:12.099Z warning(faulty_network): connect failed (1,8): error.ConnectionRefused
+2025-11-17 16:27:12.702Z warning(faulty_network): connect failed (2,4): error.ConnectionRefused
+2025-11-17 16:27:12.702Z warning(faulty_network): connect failed (0,6): error.ConnectionRefused
+2025-11-17 16:27:12.702Z warning(faulty_network): connect failed (1,9): error.ConnectionRefused
+2025-11-17 16:27:12.800Z warning(faulty_network): connect failed (0,7): error.ConnectionRefused
+2025-11-17 16:27:12.801Z warning(faulty_network): connect failed (2,5): error.ConnectionRefused
+2025-11-17 16:27:12.801Z warning(faulty_network): connect failed (1,0): error.ConnectionRefused
+2025-11-17 16:27:12.877Z warning(faulty_network): connect failed (2,6): error.ConnectionRefused
+2025-11-17 16:27:12.885Z warning(faulty_network): connect failed (0,8): error.ConnectionRefused
+2025-11-17 16:27:12.911Z warning(faulty_network): connect failed (1,1): error.ConnectionRefused
+2025-11-17 16:27:12.974Z warning(faulty_network): connect failed (2,7): error.ConnectionRefused
+2025-11-17 16:27:12.985Z warning(faulty_network): connect failed (0,9): error.ConnectionRefused
+2025-11-17 16:27:12.989Z warning(faulty_network): connect failed (1,2): error.ConnectionRefused
+2025-11-17 16:27:13.043Z warning(faulty_network): connect failed (1,3): error.ConnectionRefused
+2025-11-17 16:27:13.064Z warning(faulty_network): connect failed (2,8): error.ConnectionRefused
+2025-11-17 16:27:13.116Z warning(faulty_network): connect failed (0,0): error.ConnectionRefused
+2025-11-17 16:27:13.181Z warning(faulty_network): connect failed (2,9): error.ConnectionRefused
+2025-11-17 16:27:13.181Z warning(faulty_network): connect failed (1,4): error.ConnectionRefused
+2025-11-17 16:27:13.181Z info(supervisor): 1: unpausing replica
+2025-11-17 16:27:13.233Z info(supervisor): 1: pausing replica
+2025-11-17 16:27:13.252Z warning(faulty_network): connect failed (0,1): error.ConnectionRefused
+2025-11-17 16:27:13.256Z warning(faulty_network): connect failed (2,0): error.ConnectionRefused
+2025-11-17 16:27:14.652Z info(supervisor): sleeping for 8.2s
+2025-11-17 16:27:14.656Z warning(faulty_network): connect failed (1,5): error.ConnectionRefused
+2025-11-17 16:27:14.656Z warning(faulty_network): connect failed (0,2): error.ConnectionRefused
+2025-11-17 16:27:14.656Z warning(faulty_network): connect failed (2,1): error.ConnectionRefused
+warning(message_bus): 329568007036446883824874990337780591568: on_recv: from=vsr.Peer{ .replica = 0 } error.ConnectionResetByPeer
+warning(message_bus): 329568007036446883824874990337780591568: on_recv: from=vsr.Peer{ .replica = 2 } error.ConnectionResetByPeer
+2025-11-17 16:27:14.780Z warning(faulty_network): connect failed (0,3): error.ConnectionRefused
+2025-11-17 16:27:14.793Z warning(faulty_network): connect failed (2,2): error.ConnectionRefused
+2025-11-17 16:27:14.810Z warning(faulty_network): connect failed (1,6): error.ConnectionRefused
+2025-11-17 16:27:14.843Z warning(faulty_network): connect failed (0,4): error.ConnectionRefused
+2025-11-17 16:27:14.877Z warning(faulty_network): connect failed (1,7): error.ConnectionRefused
+2025-11-17 16:27:14.878Z warning(faulty_network): connect failed (2,3): error.ConnectionRefused
+2025-11-17 16:27:14.906Z warning(faulty_network): connect failed (0,5): error.ConnectionRefused
+2025-11-17 16:27:14.937Z warning(faulty_network): connect failed (1,8): error.ConnectionRefused
+2025-11-17 16:27:14.985Z warning(faulty_network): connect failed (2,4): error.ConnectionRefused
+2025-11-17 16:27:14.994Z warning(faulty_network): connect failed (0,6): error.ConnectionRefused
+2025-11-17 16:27:15.024Z warning(faulty_network): connect failed (1,9): error.ConnectionRefused
+2025-11-17 16:27:15.069Z warning(faulty_network): connect failed (0,7): error.ConnectionRefused
+2025-11-17 16:27:15.081Z warning(faulty_network): connect failed (2,5): error.ConnectionRefused
+2025-11-17 16:27:15.089Z warning(faulty_network): connect failed (1,0): error.ConnectionRefused
+2025-11-17 16:27:15.123Z warning(faulty_network): connect failed (0,8): error.ConnectionRefused
+2025-11-17 16:27:15.141Z warning(faulty_network): connect failed (1,1): error.ConnectionRefused
+2025-11-17 16:27:15.189Z warning(faulty_network): connect failed (2,6): error.ConnectionRefused
+2025-11-17 16:27:15.199Z warning(faulty_network): connect failed (0,9): error.ConnectionRefused
+2025-11-17 16:27:15.205Z warning(faulty_network): connect failed (1,2): error.ConnectionRefused
+2025-11-17 16:27:15.263Z warning(faulty_network): connect failed (0,0): error.ConnectionRefused
+2025-11-17 16:27:15.270Z warning(faulty_network): connect failed (2,7): error.ConnectionRefused
+2025-11-17 16:27:15.302Z warning(faulty_network): connect failed (1,3): error.ConnectionRefused
+2025-11-17 16:27:15.923Z warning(faulty_network): connect failed (2,8): error.ConnectionRefused
+2025-11-17 16:27:15.969Z warning(faulty_network): connect failed (1,4): error.ConnectionRefused
+2025-11-17 16:27:15.969Z warning(faulty_network): connect failed (0,1): error.ConnectionRefused
+2025-11-17 16:27:16.038Z warning(faulty_network): connect failed (0,2): error.ConnectionRefused
+2025-11-17 16:27:16.039Z warning(faulty_network): connect failed (1,5): error.ConnectionRefused
+2025-11-17 16:27:16.065Z warning(faulty_network): connect failed (2,9): error.ConnectionRefused
+2025-11-17 16:27:16.112Z warning(faulty_network): connect failed (1,6): error.ConnectionRefused
+2025-11-17 16:27:16.141Z warning(faulty_network): connect failed (0,3): error.ConnectionRefused
+2025-11-17 16:27:16.142Z warning(faulty_network): connect failed (2,0): error.ConnectionRefused
+2025-11-17 16:27:16.168Z warning(faulty_network): connect failed (1,7): error.ConnectionRefused
+2025-11-17 16:27:16.203Z warning(faulty_network): connect failed (2,1): error.ConnectionRefused
+2025-11-17 16:27:16.233Z warning(faulty_network): connect failed (0,4): error.ConnectionRefused
+2025-11-17 16:27:16.251Z warning(faulty_network): connect failed (1,8): error.ConnectionRefused
+2025-11-17 16:27:16.285Z warning(faulty_network): connect failed (2,2): error.ConnectionRefused
+2025-11-17 16:27:16.309Z warning(faulty_network): connect failed (0,5): error.ConnectionRefused
+2025-11-17 16:27:16.342Z warning(faulty_network): connect failed (1,9): error.ConnectionRefused
+2025-11-17 16:27:16.361Z warning(faulty_network): connect failed (2,3): error.ConnectionRefused
+2025-11-17 16:27:16.921Z warning(faulty_network): connect failed (1,0): error.ConnectionRefused
+2025-11-17 16:27:16.921Z warning(faulty_network): connect failed (2,4): error.ConnectionRefused
+2025-11-17 16:27:16.921Z warning(faulty_network): connect failed (0,6): error.ConnectionRefused
+2025-11-17 16:27:17.006Z warning(faulty_network): connect failed (2,5): error.ConnectionRefused
+2025-11-17 16:27:17.012Z warning(faulty_network): connect failed (0,7): error.ConnectionRefused
+2025-11-17 16:27:17.027Z warning(faulty_network): connect failed (1,1): error.ConnectionRefused
+2025-11-17 16:27:17.066Z warning(faulty_network): connect failed (2,6): error.ConnectionRefused
+2025-11-17 16:27:17.085Z warning(faulty_network): connect failed (1,2): error.ConnectionRefused
+2025-11-17 16:27:17.104Z warning(faulty_network): connect failed (0,8): error.ConnectionRefused
+2025-11-17 16:27:17.124Z warning(faulty_network): connect failed (2,7): error.ConnectionRefused
+2025-11-17 16:27:17.150Z warning(faulty_network): connect failed (1,3): error.ConnectionRefused
+2025-11-17 16:27:17.325Z warning(faulty_network): connect failed (1,4): error.ConnectionRefused
+2025-11-17 16:27:17.325Z warning(faulty_network): connect failed (0,9): error.ConnectionRefused
+2025-11-17 16:27:17.325Z warning(faulty_network): connect failed (2,8): error.ConnectionRefused
+2025-11-17 16:27:17.464Z warning(faulty_network): connect failed (2,9): error.ConnectionRefused
+2025-11-17 16:27:17.465Z warning(faulty_network): connect failed (0,0): error.ConnectionRefused
+2025-11-17 16:27:17.465Z warning(faulty_network): connect failed (1,5): error.ConnectionRefused
+2025-11-17 16:27:17.963Z warning(faulty_network): connect failed (0,1): error.ConnectionRefused
+2025-11-17 16:27:17.964Z warning(faulty_network): connect failed (1,6): error.ConnectionRefused
+2025-11-17 16:27:17.964Z warning(faulty_network): connect failed (2,0): error.ConnectionRefused
+2025-11-17 16:27:18.256Z warning(faulty_network): connect failed (0,2): error.ConnectionRefused
+2025-11-17 16:27:18.262Z warning(faulty_network): connect failed (2,1): error.ConnectionRefused
+2025-11-17 16:27:18.280Z warning(faulty_network): connect failed (1,7): error.ConnectionRefused
+2025-11-17 16:27:18.323Z warning(faulty_network): connect failed (0,3): error.ConnectionRefused
+2025-11-17 16:27:18.338Z warning(faulty_network): connect failed (1,8): error.ConnectionRefused
+2025-11-17 16:27:18.348Z warning(faulty_network): connect failed (2,2): error.ConnectionRefused
+2025-11-17 16:27:18.389Z warning(faulty_network): connect failed (0,4): error.ConnectionRefused
+2025-11-17 16:27:18.411Z warning(faulty_network): connect failed (1,9): error.ConnectionRefused
+2025-11-17 16:27:18.446Z warning(faulty_network): connect failed (0,5): error.ConnectionRefused
+2025-11-17 16:27:18.452Z warning(faulty_network): connect failed (2,3): error.ConnectionRefused
+2025-11-17 16:27:18.500Z warning(faulty_network): connect failed (0,6): error.ConnectionRefused
+2025-11-17 16:27:18.512Z warning(faulty_network): connect failed (1,0): error.ConnectionRefused
+2025-11-17 16:27:18.544Z warning(faulty_network): connect failed (2,4): error.ConnectionRefused
+2025-11-17 16:27:18.584Z warning(faulty_network): connect failed (0,7): error.ConnectionRefused
+2025-11-17 16:27:18.605Z warning(faulty_network): connect failed (1,1): error.ConnectionRefused
+2025-11-17 16:27:18.612Z warning(faulty_network): connect failed (2,5): error.ConnectionRefused
+2025-11-17 16:27:18.672Z warning(faulty_network): connect failed (2,6): error.ConnectionRefused
+2025-11-17 16:27:18.684Z warning(faulty_network): connect failed (0,8): error.ConnectionRefused
+2025-11-17 16:27:18.707Z warning(faulty_network): connect failed (1,2): error.ConnectionRefused
+2025-11-17 16:27:18.741Z warning(faulty_network): connect failed (0,9): error.ConnectionRefused
+2025-11-17 16:27:18.758Z warning(faulty_network): connect failed (2,7): error.ConnectionRefused
+2025-11-17 16:27:18.799Z warning(faulty_network): connect failed (1,3): error.ConnectionRefused
+2025-11-17 16:27:18.812Z warning(faulty_network): connect failed (0,0): error.ConnectionRefused
+2025-11-17 16:27:18.840Z warning(faulty_network): connect failed (2,8): error.ConnectionRefused
+2025-11-17 16:27:18.883Z warning(faulty_network): connect failed (0,1): error.ConnectionRefused
+2025-11-17 16:27:18.907Z warning(faulty_network): connect failed (1,4): error.ConnectionRefused
+2025-11-17 16:27:18.948Z warning(faulty_network): connect failed (2,9): error.ConnectionRefused
+2025-11-17 16:27:18.955Z warning(faulty_network): connect failed (0,2): error.ConnectionRefused
+2025-11-17 16:27:18.988Z warning(faulty_network): connect failed (1,5): error.ConnectionRefused
+2025-11-17 16:27:19.070Z warning(faulty_network): connect failed (2,0): error.ConnectionRefused
+2025-11-17 16:27:19.073Z warning(faulty_network): connect failed (0,3): error.ConnectionRefused
+2025-11-17 16:27:19.104Z warning(faulty_network): connect failed (1,6): error.ConnectionRefused
+2025-11-17 16:27:19.165Z warning(faulty_network): connect failed (1,7): error.ConnectionRefused
+2025-11-17 16:27:19.176Z warning(faulty_network): connect failed (2,1): error.ConnectionRefused
+2025-11-17 16:27:19.185Z warning(faulty_network): connect failed (0,4): error.ConnectionRefused
+2025-11-17 16:27:19.258Z warning(faulty_network): connect failed (2,2): error.ConnectionRefused
+2025-11-17 16:27:19.262Z warning(faulty_network): connect failed (1,8): error.ConnectionRefused
+2025-11-17 16:27:19.283Z warning(faulty_network): connect failed (0,5): error.ConnectionRefused
+2025-11-17 16:27:19.340Z warning(faulty_network): connect failed (1,9): error.ConnectionRefused
+2025-11-17 16:27:19.355Z warning(faulty_network): connect failed (2,3): error.ConnectionRefused
+2025-11-17 16:27:19.367Z warning(faulty_network): connect failed (0,6): error.ConnectionRefused
+2025-11-17 16:27:19.395Z warning(faulty_network): connect failed (1,0): error.ConnectionRefused
+2025-11-17 16:27:19.550Z warning(faulty_network): connect failed (0,7): error.ConnectionRefused
+2025-11-17 16:27:19.620Z warning(faulty_network): connect failed (2,4): error.ConnectionRefused
+2025-11-17 16:27:19.620Z warning(faulty_network): connect failed (1,1): error.ConnectionRefused
+2025-11-17 16:27:19.694Z warning(faulty_network): connect failed (1,2): error.ConnectionRefused
+2025-11-17 16:27:19.715Z warning(faulty_network): connect failed (0,8): error.ConnectionRefused
+2025-11-17 16:27:19.730Z warning(faulty_network): connect failed (2,5): error.ConnectionRefused
+2025-11-17 16:27:19.800Z warning(faulty_network): connect failed (1,3): error.ConnectionRefused
+2025-11-17 16:27:19.808Z warning(faulty_network): connect failed (0,9): error.ConnectionRefused
+2025-11-17 16:27:19.811Z warning(faulty_network): connect failed (2,6): error.ConnectionRefused
+2025-11-17 16:27:20.072Z warning(faulty_network): connect failed (1,4): error.ConnectionRefused
+2025-11-17 16:27:20.074Z warning(faulty_network): connect failed (2,7): error.ConnectionRefused
+2025-11-17 16:27:20.074Z warning(faulty_network): connect failed (0,0): error.ConnectionRefused
+2025-11-17 16:27:20.232Z warning(faulty_network): connect failed (1,5): error.ConnectionRefused
+2025-11-17 16:27:20.245Z warning(faulty_network): connect failed (2,8): error.ConnectionRefused
+2025-11-17 16:27:20.245Z warning(faulty_network): connect failed (0,1): error.ConnectionRefused
+2025-11-17 16:27:20.386Z warning(faulty_network): connect failed (0,2): error.ConnectionRefused
+2025-11-17 16:27:20.386Z warning(faulty_network): connect failed (2,9): error.ConnectionRefused
+2025-11-17 16:27:20.386Z warning(faulty_network): connect failed (1,6): error.ConnectionRefused
+2025-11-17 16:27:20.448Z warning(faulty_network): connect failed (2,0): error.ConnectionRefused
+2025-11-17 16:27:20.465Z warning(faulty_network): connect failed (0,3): error.ConnectionRefused
+2025-11-17 16:27:20.490Z warning(faulty_network): connect failed (1,7): error.ConnectionRefused
+2025-11-17 16:27:20.517Z warning(faulty_network): connect failed (2,1): error.ConnectionRefused
+2025-11-17 16:27:20.518Z warning(faulty_network): connect failed (0,4): error.ConnectionRefused
+2025-11-17 16:27:20.562Z warning(faulty_network): connect failed (1,8): error.ConnectionRefused
+2025-11-17 16:27:20.583Z warning(faulty_network): connect failed (2,2): error.ConnectionRefused
+2025-11-17 16:27:20.607Z warning(faulty_network): connect failed (0,5): error.ConnectionRefused
+2025-11-17 16:27:20.642Z warning(faulty_network): connect failed (2,3): error.ConnectionRefused
+2025-11-17 16:27:20.664Z warning(faulty_network): connect failed (1,9): error.ConnectionRefused
+2025-11-17 16:27:20.706Z warning(faulty_network): connect failed (0,6): error.ConnectionRefused
+2025-11-17 16:27:20.732Z warning(faulty_network): connect failed (2,4): error.ConnectionRefused
+2025-11-17 16:27:20.771Z warning(faulty_network): connect failed (1,0): error.ConnectionRefused
+2025-11-17 16:27:20.793Z warning(faulty_network): connect failed (0,7): error.ConnectionRefused
+2025-11-17 16:27:20.805Z warning(faulty_network): connect failed (2,5): error.ConnectionRefused
+2025-11-17 16:27:20.829Z warning(faulty_network): connect failed (1,1): error.ConnectionRefused
+2025-11-17 16:27:20.863Z warning(faulty_network): connect failed (2,6): error.ConnectionRefused
+2025-11-17 16:27:20.864Z warning(faulty_network): connect failed (0,8): error.ConnectionRefused
+2025-11-17 16:27:21.124Z warning(faulty_network): connect failed (0,9): error.ConnectionRefused
+2025-11-17 16:27:21.124Z warning(faulty_network): connect failed (2,7): error.ConnectionRefused
+2025-11-17 16:27:21.124Z warning(faulty_network): connect failed (1,2): error.ConnectionRefused
+2025-11-17 16:27:21.246Z warning(faulty_network): connect failed (2,8): error.ConnectionRefused
+2025-11-17 16:27:21.264Z warning(faulty_network): connect failed (1,3): error.ConnectionRefused
+2025-11-17 16:27:21.289Z warning(faulty_network): connect failed (0,0): error.ConnectionRefused
+2025-11-17 16:27:21.325Z warning(faulty_network): connect failed (1,4): error.ConnectionRefused
+2025-11-17 16:27:21.343Z warning(faulty_network): connect failed (2,9): error.ConnectionRefused
+2025-11-17 16:27:21.352Z warning(faulty_network): connect failed (0,1): error.ConnectionRefused
+2025-11-17 16:27:21.392Z warning(faulty_network): connect failed (1,5): error.ConnectionRefused
+2025-11-17 16:27:21.419Z warning(faulty_network): connect failed (0,2): error.ConnectionRefused
+2025-11-17 16:27:21.442Z warning(faulty_network): connect failed (2,0): error.ConnectionRefused
+2025-11-17 16:27:21.447Z warning(faulty_network): connect failed (1,6): error.ConnectionRefused
+2025-11-17 16:27:21.466Z info(supervisor): injecting network delays: testing.vortex.faulty_network.Faults{ .delay = testing.vortex.faulty_network.Faults.Delay{ .time_ms = 147, .jitter_ms = 50 }, .lose = null, .corrupt = null }
+2025-11-17 16:27:21.900Z info(supervisor): 2: starting replica
+2025-11-17 16:27:21.911Z warning(faulty_network): connect failed (0,3): error.ConnectionRefused
+2025-11-17 16:27:21.911Z warning(faulty_network): connect failed (2,1): error.ConnectionRefused
+2025-11-17 16:27:21.911Z warning(faulty_network): connect failed (1,7): error.ConnectionRefused
+2025-11-17 16:27:21.921Z info(supervisor): 1: unpausing replica
+2025-11-17 16:27:21.922Z info(supervisor): going into 2m8s quiescence (no faults)
+2025-11-17 16:27:21.971Z warning(faulty_network): connect failed (0,4): error.ConnectionRefused
+2025-11-17 16:27:21.983Z warning(faulty_network): connect failed (1,8): error.ConnectionRefused
+2025-11-17 16:27:21.987Z warning(faulty_network): connect failed (2,2): error.ConnectionRefused
+2025-11-17 16:27:22.069Z warning(faulty_network): connect failed (1,9): error.ConnectionRefused
+2025-11-17 16:27:22.073Z warning(faulty_network): connect failed (2,3): error.ConnectionRefused
+2025-11-17 16:27:22.074Z warning(faulty_network): connect failed (0,5): error.ConnectionRefused
+2025-11-17 16:27:22.142Z warning(faulty_network): connect failed (2,4): error.ConnectionRefused
+2025-11-17 16:27:22.159Z warning(faulty_network): connect failed (0,6): error.ConnectionRefused
+2025-11-17 16:27:22.177Z warning(faulty_network): connect failed (1,0): error.ConnectionRefused
+2025-11-17 16:27:22.221Z warning(faulty_network): connect failed (2,5): error.ConnectionRefused
+2025-11-17 16:27:22.226Z info(io): opening "0_2.tigerbeetle"...
+2025-11-17 16:27:22.251Z warning(faulty_network): connect failed (0,7): error.ConnectionRefused
+2025-11-17 16:27:22.254Z warning(faulty_network): connect failed (1,1): error.ConnectionRefused
+2025-11-17 16:27:22.280Z warning(faulty_network): connect failed (2,6): error.ConnectionRefused
+2025-11-17 16:27:22.338Z warning(faulty_network): connect failed (0,8): error.ConnectionRefused
+2025-11-17 16:27:22.338Z warning(faulty_network): connect failed (2,7): error.ConnectionRefused
+2025-11-17 16:27:22.356Z warning(faulty_network): connect failed (1,2): error.ConnectionRefused
+2025-11-17 16:27:22.406Z warning(faulty_network): connect failed (0,9): error.ConnectionRefused
+2025-11-17 16:27:22.408Z warning(faulty_network): connect failed (2,8): error.ConnectionRefused
+2025-11-17 16:27:22.429Z warning(faulty_network): connect failed (1,3): error.ConnectionRefused
+2025-11-17 16:27:22.477Z warning(faulty_network): connect failed (0,0): error.ConnectionRefused
+2025-11-17 16:27:22.698Z warning(faulty_network): connect failed (2,9): error.ConnectionRefused
+2025-11-17 16:27:23.219Z warning(faulty_network): connect failed (1,4): error.ConnectionRefused
+2025-11-17 16:27:23.219Z warning(faulty_network): connect failed (0,1): error.ConnectionRefused
+2025-11-17 16:27:23.286Z warning(faulty_network): connect failed (2,0): error.ConnectionRefused
+2025-11-17 16:27:23.290Z warning(faulty_network): connect failed (0,2): error.ConnectionRefused
+2025-11-17 16:27:23.295Z warning(faulty_network): connect failed (1,5): error.ConnectionRefused
+2025-11-17 16:27:23.374Z warning(faulty_network): connect failed (0,3): error.ConnectionRefused
+2025-11-17 16:27:23.606Z warning(faulty_network): connect failed (2,1): error.ConnectionRefused
+2025-11-17 16:27:23.606Z warning(faulty_network): connect failed (1,6): error.ConnectionRefused
+2025-11-17 16:27:23.749Z warning(faulty_network): connect failed (0,4): error.ConnectionRefused
+2025-11-17 16:27:23.763Z warning(faulty_network): connect failed (1,7): error.ConnectionRefused
+2025-11-17 16:27:23.763Z warning(faulty_network): connect failed (2,2): error.ConnectionRefused
+2025-11-17 16:27:23.860Z warning(faulty_network): connect failed (0,5): error.ConnectionRefused
+2025-11-17 16:27:23.878Z warning(faulty_network): connect failed (1,8): error.ConnectionRefused
+2025-11-17 16:27:23.878Z warning(faulty_network): connect failed (2,3): error.ConnectionRefused
+2025-11-17 16:27:23.946Z warning(faulty_network): connect failed (2,4): error.ConnectionRefused
+2025-11-17 16:27:23.947Z warning(faulty_network): connect failed (0,6): error.ConnectionRefused
+2025-11-17 16:27:23.980Z warning(faulty_network): connect failed (1,9): error.ConnectionRefused
+2025-11-17 16:27:24.008Z warning(faulty_network): connect failed (2,5): error.ConnectionRefused
+2025-11-17 16:27:24.015Z warning(faulty_network): connect failed (0,7): error.ConnectionRefused
+2025-11-17 16:27:24.060Z warning(faulty_network): connect failed (1,0): error.ConnectionRefused
+2025-11-17 16:27:24.056Z info(main): multiversioning: upgrades disabled for development (0.0.1) release.
+2025-11-17 16:27:24.066Z info(main): release=0.0.1
+2025-11-17 16:27:24.066Z info(main): release_client_min=0.0.1
+2025-11-17 16:27:24.066Z info(main): releases_bundled={ 0.0.1 }
+2025-11-17 16:27:24.066Z info(main): git_commit=c13616ff2e359f1960f076d566d80c300df32d32
+2025-11-17 16:27:24.066Z debug(superblock): null: open: started
+2025-11-17 16:27:24.066Z debug(superblock): null: open: read_header: copy=0 size=8192 offset=0
+2025-11-17 16:27:24.067Z debug(superblock): null: open: read_header: copy=1 size=8192 offset=24576
+2025-11-17 16:27:24.067Z debug(superblock): null: open: read_header: copy=2 size=8192 offset=49152
+2025-11-17 16:27:24.067Z debug(superblock): null: open: read_header: copy=3 size=8192 offset=73728
+2025-11-17 16:27:24.068Z debug(superblock_quorums): copy: 0/4: checksum=1350be559db7dd9939178c4f0d892564 parent=322d19a1d093bbe81755c420f22bc37a sequence=1
+2025-11-17 16:27:24.068Z debug(superblock_quorums): copy: 1/4: checksum=1350be559db7dd9939178c4f0d892564 parent=322d19a1d093bbe81755c420f22bc37a sequence=1
+2025-11-17 16:27:24.068Z debug(superblock_quorums): copy: 2/4: checksum=1350be559db7dd9939178c4f0d892564 parent=322d19a1d093bbe81755c420f22bc37a sequence=1
+2025-11-17 16:27:24.068Z debug(superblock_quorums): copy: 3/4: checksum=1350be559db7dd9939178c4f0d892564 parent=322d19a1d093bbe81755c420f22bc37a sequence=1
+2025-11-17 16:27:24.073Z debug(superblock_quorums): quorum: checksum=1350be559db7dd9939178c4f0d892564 parent=322d19a1d093bbe81755c420f22bc37a sequence=1 count=4 valid=true
+2025-11-17 16:27:24.078Z warning(faulty_network): connect failed (2,6): error.ConnectionRefused
+2025-11-17 16:27:24.084Z warning(faulty_network): connect failed (0,8): error.ConnectionRefused
+2025-11-17 16:27:24.154Z warning(faulty_network): connect failed (1,1): error.ConnectionRefused
+2025-11-17 16:27:24.155Z warning(faulty_network): connect failed (0,9): error.ConnectionRefused
+2025-11-17 16:27:24.076Z debug(superblock): null: open: installed working superblock: checksum=1350be559db7dd9939178c4f0d892564 sequence=1 release=0.0.1 cluster=00000000000000000000000000000000 replica_id=134075807420264837279280775697797238201 size=1141374976 free_set_blocks_acquired_size=0 free_set_blocks_released_size=0 client_sessions_size=0 checkpoint_id=f222e9ce156b309eaeb4af665242ac18 commit_min_checksum=108034676951432761169128540124443993015 commit_min=0 commit_max=0 log_view=0 view=0 sync_op_min=0 sync_op_max=0 manifest_oldest_checksum=0 manifest_oldest_address=0 manifest_newest_checksum=0 manifest_newest_address=0 manifest_block_count=0 snapshots_block_checksum=0 snapshots_block_address=0
+2025-11-17 16:27:24.169Z warning(faulty_network): connect failed (2,7): error.ConnectionRefused
+2025-11-17 16:27:24.216Z warning(faulty_network): connect failed (1,2): error.ConnectionRefused
+2025-11-17 16:27:24.221Z warning(faulty_network): connect failed (0,0): error.ConnectionRefused
+2025-11-17 16:27:24.240Z debug(superblock): null: open: vsr_header: op=0 checksum=108034676951432761169128540124443993015
+2025-11-17 16:27:24.243Z debug(superblock): null: open: complete
+2025-11-17 16:27:24.276Z warning(faulty_network): connect failed (2,8): error.ConnectionRefused
+2025-11-17 16:27:24.308Z warning(faulty_network): connect failed (1,3): error.ConnectionRefused
+2025-11-17 16:27:24.308Z warning(faulty_network): connect failed (0,1): error.ConnectionRefused
+2025-11-17 16:27:24.350Z warning(faulty_network): connect failed (2,9): error.ConnectionRefused
+2025-11-17 16:27:24.382Z warning(faulty_network): connect failed (1,4): error.ConnectionRefused
+warning(message_bus): 329568007036446883824874990337780591568: on_recv: from=vsr.Peer{ .replica = 1 } error.ConnectionResetByPeer
+2025-11-17 16:27:24.396Z warning(faulty_network): connect failed (0,2): error.ConnectionRefused
+warning(message_bus): 329568007036446883824874990337780591568: on_recv: from=vsr.Peer{ .replica = 0 } error.ConnectionResetByPeer
+2025-11-17 16:27:24.424Z warning(faulty_network): connect failed (2,0): error.ConnectionRefused
+2025-11-17 16:27:24.483Z warning(faulty_network): connect failed (1,5): error.ConnectionRefused
+2025-11-17 16:27:24.494Z warning(faulty_network): connect failed (0,3): error.ConnectionRefused
+2025-11-17 16:27:24.526Z warning(faulty_network): connect failed (2,1): error.ConnectionRefused
+2025-11-17 16:27:24.524Z debug(journal): 2: slot_count=1024 size=1.000244140625GiB headers_size=256KiB prepares_size=1GiB
+2025-11-17 16:27:24.565Z warning(faulty_network): connect failed (1,6): error.ConnectionRefused
+2025-11-17 16:27:24.570Z warning(faulty_network): connect failed (0,4): error.ConnectionRefused
+2025-11-17 16:27:25.099Z warning(faulty_network): connect failed (0,5): error.ConnectionRefused
+2025-11-17 16:27:25.099Z warning(faulty_network): connect failed (2,2): error.ConnectionRefused
+2025-11-17 16:27:25.099Z warning(faulty_network): connect failed (1,7): error.ConnectionRefused
+2025-11-17 16:27:25.180Z warning(faulty_network): connect failed (1,8): error.ConnectionRefused
+2025-11-17 16:27:25.185Z warning(faulty_network): connect failed (0,6): error.ConnectionRefused
+2025-11-17 16:27:25.195Z warning(faulty_network): connect failed (2,3): error.ConnectionRefused
+2025-11-17 16:27:25.239Z warning(faulty_network): connect failed (0,7): error.ConnectionRefused
+2025-11-17 16:27:25.252Z warning(faulty_network): connect failed (1,9): error.ConnectionRefused
+2025-11-17 16:27:25.281Z warning(faulty_network): connect failed (2,4): error.ConnectionRefused
+2025-11-17 16:27:25.343Z warning(faulty_network): connect failed (1,0): error.ConnectionRefused
+2025-11-17 16:27:25.347Z warning(faulty_network): connect failed (0,8): error.ConnectionRefused
+2025-11-17 16:27:25.411Z warning(faulty_network): connect failed (2,5): error.ConnectionRefused
+2025-11-17 16:27:25.418Z warning(faulty_network): connect failed (1,1): error.ConnectionRefused
+2025-11-17 16:27:25.448Z warning(faulty_network): connect failed (0,9): error.ConnectionRefused
+2025-11-17 16:27:25.503Z warning(faulty_network): connect failed (0,0): error.ConnectionRefused
+2025-11-17 16:27:25.518Z warning(faulty_network): connect failed (1,2): error.ConnectionRefused
+2025-11-17 16:27:25.521Z warning(faulty_network): connect failed (2,6): error.ConnectionRefused
+2025-11-17 16:27:25.574Z warning(faulty_network): connect failed (1,3): error.ConnectionRefused
+2025-11-17 16:27:25.593Z warning(faulty_network): connect failed (2,7): error.ConnectionRefused
+2025-11-17 16:27:25.603Z warning(faulty_network): connect failed (0,1): error.ConnectionRefused
+2025-11-17 16:27:25.671Z warning(faulty_network): connect failed (1,4): error.ConnectionRefused
+2025-11-17 16:27:25.698Z warning(faulty_network): connect failed (2,8): error.ConnectionRefused
+2025-11-17 16:27:25.708Z warning(faulty_network): connect failed (0,2): error.ConnectionRefused
+2025-11-17 16:27:25.732Z warning(faulty_network): connect failed (1,5): error.ConnectionRefused
+2025-11-17 16:27:25.763Z warning(faulty_network): connect failed (2,9): error.ConnectionRefused
+2025-11-17 16:27:25.776Z warning(faulty_network): connect failed (0,3): error.ConnectionRefused
+2025-11-17 16:27:25.813Z warning(faulty_network): connect failed (1,6): error.ConnectionRefused
+2025-11-17 16:27:25.834Z warning(faulty_network): connect failed (2,0): error.ConnectionRefused
+2025-11-17 16:27:25.844Z warning(faulty_network): connect failed (0,4): error.ConnectionRefused
+2025-11-17 16:27:25.885Z warning(faulty_network): connect failed (1,7): error.ConnectionRefused
+2025-11-17 16:27:25.900Z warning(faulty_network): connect failed (2,1): error.ConnectionRefused
+2025-11-17 16:27:25.906Z warning(faulty_network): connect failed (0,5): error.ConnectionRefused
+2025-11-17 16:27:25.969Z warning(faulty_network): connect failed (2,2): error.ConnectionRefused
+2025-11-17 16:27:25.991Z warning(faulty_network): connect failed (1,8): error.ConnectionRefused
+2025-11-17 16:27:26.003Z warning(faulty_network): connect failed (0,6): error.ConnectionRefused
+2025-11-17 16:27:26.026Z warning(faulty_network): connect failed (2,3): error.ConnectionRefused
+2025-11-17 16:27:26.061Z warning(faulty_network): connect failed (0,7): error.ConnectionRefused
+2025-11-17 16:27:26.090Z warning(faulty_network): connect failed (1,9): error.ConnectionRefused
+2025-11-17 16:27:26.118Z warning(faulty_network): connect failed (2,4): error.ConnectionRefused
+2025-11-17 16:27:26.121Z warning(faulty_network): connect failed (0,8): error.ConnectionRefused
+2025-11-17 16:27:26.180Z warning(faulty_network): connect failed (1,0): error.ConnectionRefused
+2025-11-17 16:27:26.198Z warning(faulty_network): connect failed (0,9): error.ConnectionRefused
+2025-11-17 16:27:26.217Z warning(faulty_network): connect failed (2,5): error.ConnectionRefused
+2025-11-17 16:27:26.271Z warning(faulty_network): connect failed (1,1): error.ConnectionRefused
+2025-11-17 16:27:26.274Z warning(faulty_network): connect failed (2,6): error.ConnectionRefused
+2025-11-17 16:27:26.300Z warning(faulty_network): connect failed (0,0): error.ConnectionRefused
+2025-11-17 16:27:26.333Z warning(faulty_network): connect failed (1,2): error.ConnectionRefused
+2025-11-17 16:27:26.343Z warning(faulty_network): connect failed (2,7): error.ConnectionRefused
+2025-11-17 16:27:31.742Z debug(manifest_log): 1: Manifest.Pace.half_bar_append_blocks_max = 1
+2025-11-17 16:27:34.263Z debug(manifest_log): 2: Manifest.Pace.half_bar_append_blocks_max = 1
+2025-11-17 16:27:37.279Z debug(manifest_log): 2: Manifest.Pace.half_bar_compact_blocks_max = 2
+2025-11-17 16:27:37.279Z debug(manifest_log): 2: Manifest.Pace.log_blocks_full_max = 586
+2025-11-17 16:27:37.279Z debug(manifest_log): 2: Manifest.Pace.log_blocks_cycle_max = 1172
+2025-11-17 16:27:37.279Z debug(manifest_log): 2: Manifest.Pace.log_blocks_max = 1466
+2025-11-17 16:27:37.279Z debug(manifest_log): 2: Manifest.Pace.tables_max = 2396744
+2025-11-17 16:27:37.279Z warning(faulty_network): connect failed (0,1): error.ConnectionRefused
+2025-11-17 16:27:37.279Z warning(faulty_network): connect failed (1,3): error.ConnectionRefused
+warning(message_bus): 329568007036446883824874990337780591568: on_recv: from=vsr.Peer{ .replica = 1 } error.ConnectionResetByPeer
+2025-11-17 16:27:37.279Z error(supervisor): 0: replica terminated unexpectedly with process.Child.Term{ .Signal = 9 }
+warning(message_bus): 329568007036446883824874990337780591568: on_recv: from=vsr.Peer{ .replica = 0 } error.ConnectionResetByPeer
+2025-11-17 16:27:37.282Z info(supervisor): 1: terminating replica
+2025-11-17 16:27:38.306Z info(supervisor): 2: terminating replica
+2025-11-17 16:27:39.493Z error: TestFailed
+/root/tigerbeetle/working/main/src/testing/vortex/supervisor.zig:425:25: 0x1308fdf in run (vortex)
+                        return error.TestFailed;
+                        ^
+/root/tigerbeetle/working/main/src/testing/vortex/supervisor.zig:207:5: 0x130c881 in main (vortex)
+    try supervisor.run();
+    ^
+/root/tigerbeetle/working/main/src/vortex.zig:61:42: 0x13214e4 in main (vortex)
+        .supervisor => |supervisor_args| try Supervisor.main(allocator, supervisor_args),
+                                         ^
